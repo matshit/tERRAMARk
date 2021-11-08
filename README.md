@@ -56,3 +56,27 @@ List of Recipes in `calibre-recipes` Folder
 2. Go to `Fetch news`, `Load recipe from file` to add your recipe.
 3. Go to `Fetch news`, `Schedule news download`, `Custom`, select the recipe added in step 1 and click `Download Now`
 4. For more details, kindly refer to [Calibre Manual](http://manual.calibre-ebook.com/news.html)
+
+## Terminal
+
+1. Install Calibre
+
+   * Archlinux
+
+   ```bash
+   pacman -S calibre
+   ```
+
+   * Debian/Ubuntu
+
+   ```bash
+   apt-get install calibre
+   ```
+
+   * RedHat/Fedora/CentOS
+
+   ```bash
+   yum -y install calibre
+   ```
+
+   * Mac OSX - Requires [Command Line Tool] (http://manual.calibre-ebook.com/cli/cli-index.html)。
