@@ -41,3 +41,18 @@ List of Recipes in `calibre-recipes` Folder
 ## Simplified Chinese
 
 + A_Mathematical_Theory_of_Communication.recipe - [通信的数学理论](http://www.ituring.com.cn/minibook/611)
++ Android_Training_Course_In_Chinese.recipe - [Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/)
++ AngularJS_Tutorial_Cn.recipe - [AngularJS入门教程](http://www.ituring.com.cn/minibook/303)
++ Extending_and_Embedding_PHP_zh_CN.recipe - [PHP扩展开发及内核应用](https://github.com/walu/phpbook/blob/master/index.md)
++ Git_Community_Book.recipe - [Git Community Book 中文版](http://gitbook.liuhui998.com/)
++ Learn_Vimscript_the_Hard_Way_Zhcn.recipe - [笨方法学Vimscrpt 简体中文版](http://learnvimscriptthehardway.onefloweroneworld.com/)
++ Pro_Git_ZH.recipe - [Pro Git 简体中文版](http://iissnan.com/progit/)
+
+# Usage
+
+## GUI
+
+1. Install Calibre [Download](http://calibre-ebook.com/download)
+2. Go to `Fetch news`, `Load recipe from file` to add your recipe.
+3. Go to `Fetch news`, `Schedule news download`, `Custom`, select the recipe added in step 1 and click `Download Now`
+4. For more details, kindly refer to [Calibre Manual](http://manual.calibre-ebook.com/news.html)
