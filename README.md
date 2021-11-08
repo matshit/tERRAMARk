@@ -29,3 +29,15 @@ List of Recipes in `calibre-recipes` Folder
 + Learn_Vimscript_the_Hard_Way.recipe - [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 + Mastering_Perl.recipe - [Mastering Perl](http://chimera.labs.oreilly.com/books/1234000001527)
 + Nature_of_Code_the.recipe - [The Nature of Code](http://natureofcode.com/book/)
++ Programming_JavaScript_Applications.recipe - [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262)
++ Python_Cookbook.recipe - [Python Cookbook](http://chimera.labs.oreilly.com/books/1230000000393)
++ SICP.recipe - [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp/full-text/book/book.html)
++ Test_Driven_Web_Development_with_Python - [Test-Driven Web Development with Python](http://chimera.labs.oreilly.com/books/1234000000754)
++ Interactive_Data_Visualization_for_the_Web - [Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345)
++ Free_as_in_Freedom - [Free as in Freedom](http://www.oreilly.com/openbook/freedom)
++ The_Definitive_Guide_to_Yii_2.0.recipe - [The Definitive Guide to Yii 2.0](http://www.yiiframework.com/doc-2.0/guide-index.html)
++ Tutorials_about_Development_for_Android.recipe - [Tutorials about Development for Android](http://www.vogella.com/tutorials/android.html)
+
+## Simplified Chinese
+
++ A_Mathematical_Theory_of_Communication.recipe - [通信的数学理论](http://www.ituring.com.cn/minibook/611)
