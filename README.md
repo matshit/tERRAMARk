@@ -98,3 +98,13 @@ List of Recipes in `calibre-recipes` Folder
    For example
 
    ```bash
+   make AOSABook.mobi
+   ```
+
+   Internally, this will run
+
+   ```bash
+   ebook-convert AOSABook.recipe AOSABook.mobi
+   ```
+
+   It will generate `AOSABook.mobi` in the same folder.
