@@ -80,3 +80,21 @@ List of Recipes in `calibre-recipes` Folder
    ```
 
    * Mac OSX - Requires [Command Line Tool] (http://manual.calibre-ebook.com/cli/cli-index.html)。
+
+2. Execute the following command in `calibre-recipes` folder
+
+   If you want to generate all books, just run `make`, e.g.
+
+   ```bash
+   make
+   ```
+
+   Otherwise to generate mobi for a specific book, run
+
+   ```bash
+   make xxx.mobi
+   ```
+
+   For example
+
+   ```bash
