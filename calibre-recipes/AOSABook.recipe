@@ -10,3 +10,24 @@ class AOSABook(BasicNewsRecipe):
     url_prefix = 'http://www.aosabook.org/en/'
     no_stylesheets = True
     remove_tags = [{ 'class': 'footer' }]
+
+    def get_title(self, link):
+        return link.contents[0].strip()
+
+    def generate_vol(self, table):
+        articles = []
+
+        for link in table.findAll('a'):
+            if '#' in link['href']:
+                continue
+
+            title = self.get_title(link) 
+            url = self.url_prefix + link['href']
+            a = { 'title': title, 'url': url }
+
+            articles.append(a)
+
+        return articles
+
+    def parse_index(self):
+        soup = self.index_to_soup(self.url_prefix + 'index.html')
