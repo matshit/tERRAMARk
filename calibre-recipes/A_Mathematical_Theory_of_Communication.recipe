@@ -1,3 +1,3 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class A_Mathematical_Theory
+class A_Mathematical_Theory_of_Communication(BasicNew
