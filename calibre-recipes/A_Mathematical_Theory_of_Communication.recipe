@@ -18,4 +18,5 @@ class A_Mathematical_Theory_of_Communication(BasicNewsRecipe):
 
         div = soup.find('div', { 'class': 'minibook-list' })
 
-        articl
+        articles = []
+        for link
