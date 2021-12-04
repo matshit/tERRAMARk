@@ -21,4 +21,4 @@ class A_Mathematical_Theory_of_Communication(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a', { 'class': 'question-hyperlink' }):
             title = self.get_title(link) 
-            url = self.url_pre
+            url = self.url_prefix + link['href
