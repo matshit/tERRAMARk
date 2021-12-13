@@ -30,4 +30,4 @@ class A_Mathematical_Theory_of_Communication(BasicNewsRecipe):
 
         return ans
 
-    def postprocess_html(self, 
+    def postprocess_html(self, soup, first_f
