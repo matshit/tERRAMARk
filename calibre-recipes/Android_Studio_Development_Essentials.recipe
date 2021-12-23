@@ -2,3 +2,4 @@
 
 from calibre.web.feeds.recipes import BasicNewsRecipe
 from calibre.ebooks.BeautifulSoup import Tag, NavigableString
+from collections import O
