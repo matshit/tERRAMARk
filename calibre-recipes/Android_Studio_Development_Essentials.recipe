@@ -5,4 +5,4 @@ from calibre.ebooks.BeautifulSoup import Tag, NavigableString
 from collections import OrderedDict
 
 
-class Android_Studio_Developm
+class Android_Studio_Development_Essentials(
