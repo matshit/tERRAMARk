@@ -7,4 +7,5 @@ from collections import OrderedDict
 
 class Android_Studio_Development_Essentials(BasicNewsRecipe):
 
-    title = 'Android Studio Deve
+    title = 'Android Studio Development Essentials'
+    descr
