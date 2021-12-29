@@ -11,4 +11,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     description = ''
     cover_url = 'http://www.techotopia.com/cover_images/android_studio_front_cover_150x120.png'
     extra_css      = '''
-  
+        pre {
+   
