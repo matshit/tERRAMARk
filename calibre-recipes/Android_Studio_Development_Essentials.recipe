@@ -14,4 +14,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
         pre {
             border-color: #e0e5ea;
             border-style: none none none solid;
-            border-width: medium medium med
+            border-width: medium medium medium 5px;
+        }
