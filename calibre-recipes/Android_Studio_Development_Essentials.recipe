@@ -13,4 +13,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     extra_css      = '''
         pre {
             border-color: #e0e5ea;
-            border-style: none none none soli
+            border-style: none none none solid;
+            border-w
