@@ -16,3 +16,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
             border-style: none none none solid;
             border-width: medium medium medium 5px;
         }
+
+        b
