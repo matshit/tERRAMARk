@@ -17,4 +17,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
             border-width: medium medium medium 5px;
         }
 
-        b
+        blackquote {
+      
