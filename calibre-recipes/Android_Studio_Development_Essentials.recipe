@@ -21,3 +21,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
             border-left: 5px solid #eee;
         }
 
+    '''
+    url_pre = '
