@@ -22,4 +22,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
         }
 
     '''
-    url_pre = '
+    url_pre = 'http://www.tech
