@@ -24,4 +24,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     '''
     url_pre = 'http://www.techotopia.com'
     no_stylesheets = True
-    
+    keep_only_tags 
