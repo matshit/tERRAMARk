@@ -25,4 +25,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     url_pre = 'http://www.techotopia.com'
     no_stylesheets = True
     keep_only_tags = [{ 'id': 'bodyContent' }]
-    remove_tags = [dict(name='table'
+    remove_tags = [dict(name='table', attrs={'al
