@@ -26,4 +26,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'id': 'bodyContent' }]
     remove_tags = [dict(name='table', attrs={'align':'center'})]
-    simultane
+    simultaneous_downloa
