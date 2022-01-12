@@ -29,4 +29,6 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     simultaneous_downloads = 5
 
     def parse_index(self):
-        return self.guid
+        return self.guide_parse_index()
+
+  
