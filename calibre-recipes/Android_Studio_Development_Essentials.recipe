@@ -28,4 +28,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     remove_tags = [dict(name='table', attrs={'align':'center'})]
     simultaneous_downloads = 5
 
-    def p
+    def parse_index(self):
+    
