@@ -31,4 +31,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
     def parse_index(self):
         return self.guide_parse_index()
 
-  
+    def guide_parse_index
