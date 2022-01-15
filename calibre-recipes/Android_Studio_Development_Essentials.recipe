@@ -33,4 +33,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
 
     def guide_parse_index(self):
 
-        # Generally, by changing this line of URL, you can download any broo
+        # Generally, by changing this line of URL, you can download any brooks from techotopia.com
