@@ -36,4 +36,6 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
         # Generally, by changing this line of URL, you can download any brooks from techotopia.com
         soup = self.index_to_soup(self.url_pre + '/index.php/Android_Studio_Development_Essentials')
 
-        div = soup.find('div', { 'id': 'bodyContent
+        div = soup.find('div', { 'id': 'bodyContent' })
+
+        ar
