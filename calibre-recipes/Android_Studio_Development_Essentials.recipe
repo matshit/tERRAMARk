@@ -42,4 +42,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
 
         ol = div.find('ol')
         myli = ol.li
- 
+        while (
