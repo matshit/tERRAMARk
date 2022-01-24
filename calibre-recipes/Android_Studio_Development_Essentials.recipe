@@ -44,4 +44,6 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
         myli = ol.li
         while (myli):
 
-            link =
+            link = myli.a
+
+            
