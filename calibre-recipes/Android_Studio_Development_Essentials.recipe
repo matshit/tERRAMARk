@@ -46,4 +46,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
 
             link = myli.a
 
-            title = link['title
+            title = link['title']
+            u
