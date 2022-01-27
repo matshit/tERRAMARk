@@ -49,4 +49,6 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
             title = link['title']
             url = self.url_pre + link['href']
 
-            a = { 'title' : titl
+            a = { 'title' : title, 'url' : url }
+
+  
