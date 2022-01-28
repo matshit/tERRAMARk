@@ -51,4 +51,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
 
             a = { 'title' : title, 'url' : url }
 
-  
+            articles.
