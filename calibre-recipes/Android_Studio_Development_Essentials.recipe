@@ -53,4 +53,4 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
 
             articles.append(a)
 
-   
+            myli = myli.ne
