@@ -1,0 +1,4 @@
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+class Android_Training_Course_In_Chinese(BasicNewsRecipe):

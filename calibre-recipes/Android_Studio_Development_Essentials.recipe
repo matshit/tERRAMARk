@@ -56,4 +56,5 @@ class Android_Studio_Development_Essentials(BasicNewsRecipe):
             myli = myli.nextSibling
 
         ans = [(self.title, articles)]
-       
+        return ans
+
