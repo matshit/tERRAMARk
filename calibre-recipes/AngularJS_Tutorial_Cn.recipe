@@ -2,4 +2,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
-    title
+    title = 'AngularJS入门教
