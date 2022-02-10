@@ -21,3 +21,14 @@ class Android_Training_Course_In_Chinese(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a'):
             if '../' in link['href']:
+                continue    
+ 
+            til = self.get_title(link)
+            url = self.url_prefix + link['href']
+            a = { 'title': til, 'url': url }
+ 
+            articles.append(a)
+ 
+        ans = [('Android_Training_Course_In_Chinese', articles)]
+ 
+        return ans
