@@ -6,4 +6,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
     description = ''
     cover_url = 'http://www.ituring.com.cn/download/01YQ9gUjqjyW'
 
-    url_pre
+    url_prefix = 'http://www.itu
