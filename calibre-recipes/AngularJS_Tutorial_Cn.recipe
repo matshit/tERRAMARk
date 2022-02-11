@@ -4,4 +4,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
     title = 'AngularJS入门教程'
     description = ''
-    cover_url = 'h
+    cover_url = 'http://www.ituring.c
