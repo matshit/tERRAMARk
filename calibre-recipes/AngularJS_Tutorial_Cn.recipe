@@ -3,4 +3,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
     title = 'AngularJS入门教程'
-    description =
+    description = ''
+    cover_url = 'h
