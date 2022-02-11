@@ -8,4 +8,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
     url_prefix = 'http://www.ituring.com.cn/'
     no_stylesheets = True
-    k
+    keep_only_tags = [{ '
