@@ -8,4 +8,6 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
     url_prefix = 'http://www.ituring.com.cn/'
     no_stylesheets = True
-    keep_only_tags = [{ 'id': 'question-header' }, { 'class': 'p
+    keep_only_tags = [{ 'id': 'question-header' }, { 'class': 'post-text' }];
+
+    d
