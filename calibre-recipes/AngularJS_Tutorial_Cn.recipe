@@ -10,4 +10,5 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'id': 'question-header' }, { 'class': 'post-text' }];
 
-    def get_title(self, li
+    def get_title(self, link):
+        return lin
