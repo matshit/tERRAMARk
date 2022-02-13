@@ -13,4 +13,5 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
     def get_title(self, link):
         return link.contents[0].strip()
 
-    def parse_
+    def parse_index(self):
+  
