@@ -14,4 +14,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
-        soup = self.ind
+        soup = self.index_to_soup('http://www.ituri
