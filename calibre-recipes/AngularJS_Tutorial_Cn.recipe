@@ -19,4 +19,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
         div = soup.find('div', { 'class': 'minibook-list' })
 
         articles = []
- 
+        for link in div.fin
