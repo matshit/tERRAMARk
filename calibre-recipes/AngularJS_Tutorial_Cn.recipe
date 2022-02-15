@@ -16,4 +16,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup('http://www.ituring.com.cn/minibook/303')
 
-        div = soup.find('div',
+        div = soup.find('div', { 'class': 'minibook-
