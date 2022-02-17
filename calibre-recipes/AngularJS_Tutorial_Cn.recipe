@@ -21,4 +21,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a', { 'class': 'question-hyperlink' }):
             title = self.get_title(link) 
-            url = self
+            url = self.url_prefix + lin
