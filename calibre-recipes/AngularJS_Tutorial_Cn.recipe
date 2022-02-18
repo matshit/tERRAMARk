@@ -24,3 +24,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
 
+            article
