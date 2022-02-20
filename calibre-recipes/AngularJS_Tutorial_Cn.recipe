@@ -26,4 +26,6 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [('AngularJS_Tutorial_Cn'
+        ans = [('AngularJS_Tutorial_Cn', articles)]
+
+     
