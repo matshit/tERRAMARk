@@ -33,4 +33,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
     def postprocess_html(self, soup, first_fetch):
         first = True
 
-        for tex
+        for text in soup.findA
