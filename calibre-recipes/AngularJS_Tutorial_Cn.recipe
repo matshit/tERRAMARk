@@ -30,4 +30,5 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
         return ans
 
-    def postprocess_html(self, soup, first_fetch
+    def postprocess_html(self, soup, first_fetch):
+        first = 
