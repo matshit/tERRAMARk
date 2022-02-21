@@ -34,4 +34,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
         first = True
 
         for text in soup.findAll('div', { 'class': 'post-text' }):
-   
+            if first:
