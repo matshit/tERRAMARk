@@ -35,3 +35,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
 
         for text in soup.findAll('div', { 'class': 'post-text' }):
             if first:
+                fir
