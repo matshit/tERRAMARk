@@ -33,4 +33,5 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
     def postprocess_html(self, soup, first_fetch):
         first = True
 
-        for text in soup.findAll('div', { 'class': '
+        for text in soup.findAll('div', { 'class': 'post-text' }):
+   
