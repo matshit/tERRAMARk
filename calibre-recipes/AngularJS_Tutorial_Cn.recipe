@@ -39,4 +39,4 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
             else:
                 text.extract()
 
-   
+        return soup
