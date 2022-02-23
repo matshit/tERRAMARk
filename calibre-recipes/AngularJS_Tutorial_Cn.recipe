@@ -37,4 +37,6 @@ class AngularJS_Tutorial_Cn(BasicNewsRecipe):
             if first:
                 first = False
             else:
-                te
+                text.extract()
+
+   
