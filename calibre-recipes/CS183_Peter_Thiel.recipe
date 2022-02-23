@@ -22,3 +22,16 @@ class Zero_To_One(BasicNewsRecipe):
         for link in div.findAll('a'):
             if '#' in link['href']:
                 continue
+
+            if not 'blakemasters.tumblr.com' in link['href']:
+                continue
+
+            title = self.get_title(link) 
+            url = link['href']
+            a = { 'title': title, 'url': url }
+
+            articles.append(a)
+
+        ans = [(title, articles)]
+
+        return ans
