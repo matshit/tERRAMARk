@@ -1,4 +1,4 @@
 import re
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class CS
+class CSBU(BasicNewsRecipe
