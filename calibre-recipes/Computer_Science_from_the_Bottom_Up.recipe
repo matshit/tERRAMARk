@@ -3,4 +3,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class CSBU(BasicNewsRecipe):
 
-    title =
+    title = 'Computer Scienc
