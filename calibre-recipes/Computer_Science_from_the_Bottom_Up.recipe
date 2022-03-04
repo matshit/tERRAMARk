@@ -8,4 +8,4 @@ class CSBU(BasicNewsRecipe):
 
     url_prefix = 'http://www.bottomupcs.com/'
     no_stylesheets = True
-    remov
+    remove_tags = [{'name':'heade
