@@ -4,4 +4,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class CSBU(BasicNewsRecipe):
 
     title = 'Computer Science from the Bottom Up'
-    description = 'Computer Science from the Bottom Up — A free, online book designed to teach computer science from the bottom end up. Topics covered include binary and binary logic, o
+    description = 'Computer Science from the Bottom Up — A free, online book designed to teach computer science from the bottom end up. Topics covered include binary and binary logic, operating systems 
