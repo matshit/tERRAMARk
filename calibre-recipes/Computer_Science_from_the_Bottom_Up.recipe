@@ -7,4 +7,5 @@ class CSBU(BasicNewsRecipe):
     description = 'Computer Science from the Bottom Up — A free, online book designed to teach computer science from the bottom end up. Topics covered include binary and binary logic, operating systems internals, toolchain fundamentals and system library fundamentals'
 
     url_prefix = 'http://www.bottomupcs.com/'
-    no_stylesheets 
+    no_stylesheets = True
+    remov
