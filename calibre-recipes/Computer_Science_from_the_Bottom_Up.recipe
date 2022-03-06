@@ -11,4 +11,6 @@ class CSBU(BasicNewsRecipe):
     remove_tags = [{'name':'header'}, {'name':'footer'}, {'name':'div', 'class':'toc'}]
 
     def get_title(self, link):
-        return link.contents[0]
+        return link.contents[0].strip()
+
+    def
