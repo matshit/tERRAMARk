@@ -14,3 +14,4 @@ class CSBU(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
+        soup = s
