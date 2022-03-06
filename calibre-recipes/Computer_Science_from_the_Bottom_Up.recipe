@@ -13,4 +13,4 @@ class CSBU(BasicNewsRecipe):
     def get_title(self, link):
         return link.contents[0].strip()
 
-    def
+    def parse_index(self):
