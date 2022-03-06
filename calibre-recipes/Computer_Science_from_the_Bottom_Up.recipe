@@ -10,4 +10,5 @@ class CSBU(BasicNewsRecipe):
     no_stylesheets = True
     remove_tags = [{'name':'header'}, {'name':'footer'}, {'name':'div', 'class':'toc'}]
 
-    def get_title(self, li
+    def get_title(self, link):
+        r
