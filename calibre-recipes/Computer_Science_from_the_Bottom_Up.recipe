@@ -16,4 +16,4 @@ class CSBU(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup('http://www.bottomupcs.com/index.html')
 
-        to
+        toc = soup.find(
