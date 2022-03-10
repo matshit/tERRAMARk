@@ -14,4 +14,6 @@ class CSBU(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
-        soup = self.index_to_soup('http://www.bottomupcs.com/index.htm
+        soup = self.index_to_soup('http://www.bottomupcs.com/index.html')
+
+        to
