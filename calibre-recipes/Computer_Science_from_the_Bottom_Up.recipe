@@ -19,4 +19,5 @@ class CSBU(BasicNewsRecipe):
         toc = soup.find('div', {'class':'toc'})
 
         articles = []
-        for link in toc.findAll('a')
+        for link in toc.findAll('a'):
+            pa
