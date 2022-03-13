@@ -20,4 +20,4 @@ class CSBU(BasicNewsRecipe):
 
         articles = []
         for link in toc.findAll('a'):
-            pa
+            pattern = re.compile(r
