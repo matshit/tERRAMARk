@@ -20,4 +20,5 @@ class CSBU(BasicNewsRecipe):
 
         articles = []
         for link in toc.findAll('a'):
-            pattern = re.compile(r
+            pattern = re.compile(r'^.*\.html$')
+          
