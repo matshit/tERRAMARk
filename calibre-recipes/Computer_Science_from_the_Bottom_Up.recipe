@@ -23,4 +23,5 @@ class CSBU(BasicNewsRecipe):
             pattern = re.compile(r'^.*\.html$')
             if not pattern.match(link['href']):
                 continue
-         
+            
+            title 
