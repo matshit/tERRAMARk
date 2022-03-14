@@ -24,4 +24,4 @@ class CSBU(BasicNewsRecipe):
             if not pattern.match(link['href']):
                 continue
             
-            title 
+            title = self.get_ti
