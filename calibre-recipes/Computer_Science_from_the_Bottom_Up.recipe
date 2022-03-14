@@ -22,4 +22,5 @@ class CSBU(BasicNewsRecipe):
         for link in toc.findAll('a'):
             pattern = re.compile(r'^.*\.html$')
             if not pattern.match(link['href']):
-           
+                continue
+         
