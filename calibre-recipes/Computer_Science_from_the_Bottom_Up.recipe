@@ -30,4 +30,4 @@ class CSBU(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = 
+        ans = [('Computer Scien
