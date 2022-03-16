@@ -28,4 +28,4 @@ class CSBU(BasicNewsRecipe):
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
 
-         
+            articles.appen
