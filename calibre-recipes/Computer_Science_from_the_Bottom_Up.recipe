@@ -30,4 +30,6 @@ class CSBU(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [('Computer Science from the Bottom Up', 
+        ans = [('Computer Science from the Bottom Up', articles)]
+
+        r
