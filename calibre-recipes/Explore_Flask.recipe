@@ -2,4 +2,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Explore_Flask(BasicNewsRecipe):
 
-    
+    title = 'Explore Flask
