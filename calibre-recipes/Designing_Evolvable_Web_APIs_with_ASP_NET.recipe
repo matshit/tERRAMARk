@@ -15,3 +15,22 @@ class Designing_Evolving_Web_APIs_with_ASP_NET(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
+        soup = self.index_to_soup(self.url_prefix + 'index.html')
+
+        div = soup.find('div', { 'class': 'toc' })
+
+        articles = []
+        for link in div.findAll('a'):
+            if '#' in link['href']:
+                continue
+
+            if not 'ch' in link['href']:
+                continue
+
+            title = self.get_title(link) 
+            url = self.url_prefix + link['href']
+            a = { 'title': title, 'url': url }
+
+            articles.append(a)
+
+        ans = [(title, articles)]
