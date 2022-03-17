@@ -1,3 +1,3 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class Expl
+class Explore_Flask(Basic
