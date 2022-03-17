@@ -28,3 +28,4 @@ class Dive_Into_Python_3(BasicNewsRecipe):
             url = self.INDEX + tag.a['href']
             article = {'title': title, 'url': url}
             articles.append(article)
+        return [('Dive_Into_Python_3', articles)]
