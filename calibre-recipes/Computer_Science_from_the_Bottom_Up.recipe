@@ -32,4 +32,4 @@ class CSBU(BasicNewsRecipe):
 
         ans = [('Computer Science from the Bottom Up', articles)]
 
-        r
+        return ans

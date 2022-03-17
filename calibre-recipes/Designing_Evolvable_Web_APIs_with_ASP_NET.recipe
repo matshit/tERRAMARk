@@ -1,0 +1,17 @@
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+class Designing_Evolving_Web_APIs_with_ASP_NET(BasicNewsRecipe):
+
+    title = 'Designing Evolving Web APIs with ASP.NET'
+    description = ''
+    cover_url = 'http://akamaicovers.oreilly.com/images/0636920026617/rc_lrg.jpg'
+
+    url_prefix = 'http://chimera.labs.oreilly.com/books/1234000001708/'
+    no_stylesheets = True
+    keep_only_tags = [{ 'class': 'chapter' }]
+
+    def get_title(self, link):
+        return link.contents[0].strip()
+
+    def parse_index(self):
