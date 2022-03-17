@@ -34,3 +34,5 @@ class Designing_Evolving_Web_APIs_with_ASP_NET(BasicNewsRecipe):
             articles.append(a)
 
         ans = [(title, articles)]
+
+        return ans
