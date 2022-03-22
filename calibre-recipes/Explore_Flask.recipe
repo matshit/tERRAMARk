@@ -5,4 +5,4 @@ class Explore_Flask(BasicNewsRecipe):
     title = 'Explore Flask'
     description = ''
 
-    url_prefix = 'http:/
+    url_prefix = 'http://exploreflask.com/'
