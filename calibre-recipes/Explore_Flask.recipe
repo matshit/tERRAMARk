@@ -6,4 +6,4 @@ class Explore_Flask(BasicNewsRecipe):
     description = ''
 
     url_prefix = 'http://exploreflask.com/'
-    no_stylesheet
+    no_stylesheets = True
