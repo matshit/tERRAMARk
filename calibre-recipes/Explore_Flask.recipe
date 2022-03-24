@@ -8,4 +8,5 @@ class Explore_Flask(BasicNewsRecipe):
     url_prefix = 'http://exploreflask.com/'
     no_stylesheets = True
 
-    def get_title(s
+    def get_title(self, link):
+     
