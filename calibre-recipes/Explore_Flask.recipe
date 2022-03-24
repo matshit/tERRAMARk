@@ -9,4 +9,6 @@ class Explore_Flask(BasicNewsRecipe):
     no_stylesheets = True
 
     def get_title(self, link):
-        return link.
+        return link.contents[0].strip()
+
+    de
