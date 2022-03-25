@@ -15,3 +15,4 @@ class Explore_Flask(BasicNewsRecipe):
         soup = self.index_to_soup(self.url_prefix + 'index.html')
 
         div = soup.find('div')
+        articles 
