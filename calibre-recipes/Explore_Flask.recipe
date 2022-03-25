@@ -12,4 +12,4 @@ class Explore_Flask(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
-        soup = self.index_to_soup(s
+        soup = self.index_to_soup(self.url_prefix + 'i
