@@ -16,4 +16,4 @@ class Explore_Flask(BasicNewsRecipe):
 
         div = soup.find('div')
         articles = []
-        for lin
+        for link in div.findAll
