@@ -17,4 +17,4 @@ class Explore_Flask(BasicNewsRecipe):
         div = soup.find('div')
         articles = []
         for link in div.findAll('a'):
-            if
+            if '#' in link['h
