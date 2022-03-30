@@ -18,4 +18,6 @@ class Explore_Flask(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a'):
             if '#' in link['href']:
-      
+                continue
+
+ 
