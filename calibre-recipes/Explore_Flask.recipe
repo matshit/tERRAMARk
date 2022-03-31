@@ -20,4 +20,4 @@ class Explore_Flask(BasicNewsRecipe):
             if '#' in link['href']:
                 continue
 
- 
+            title = self.get_
