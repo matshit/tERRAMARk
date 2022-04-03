@@ -24,4 +24,4 @@ class Explore_Flask(BasicNewsRecipe):
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
 
-           
+            articles.append(a)
