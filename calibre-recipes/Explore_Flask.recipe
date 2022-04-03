@@ -25,3 +25,5 @@ class Explore_Flask(BasicNewsRecipe):
             a = { 'title': title, 'url': url }
 
             articles.append(a)
+
+        ans = [(titl
