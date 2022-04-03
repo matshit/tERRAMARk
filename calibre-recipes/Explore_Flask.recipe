@@ -26,4 +26,6 @@ class Explore_Flask(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [(titl
+        ans = [(title, articles)]
+
+   
