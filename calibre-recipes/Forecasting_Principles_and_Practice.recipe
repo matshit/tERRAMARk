@@ -1,2 +1,2 @@
 import re
-from calibre.web.feeds.re
+from calibre.web.feeds.recipes import BasicNewsRecip
