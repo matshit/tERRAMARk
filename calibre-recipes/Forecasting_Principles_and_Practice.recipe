@@ -1,2 +1,3 @@
 import re
-from calibre.web.feeds.recipes import BasicNewsRecip
+from calibre.web.feeds.recipes import BasicNewsRecipe
+from calibre.ebooks.
