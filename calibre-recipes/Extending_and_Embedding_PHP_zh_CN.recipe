@@ -1,0 +1,8 @@
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+class Designing_Evolving_Web_APIs_with_ASP_NET(BasicNewsRecipe):
+
+    title = 'Extending and Embedding PHP'
+    description = 'Extending_and_Embedding_PHP_Chinese'
+    cover_url = 'http://img3.douban.com/lpic/s1918674.jpg'

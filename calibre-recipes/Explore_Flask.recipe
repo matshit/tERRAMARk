@@ -28,4 +28,4 @@ class Explore_Flask(BasicNewsRecipe):
 
         ans = [(title, articles)]
 
-   
+        return ans
