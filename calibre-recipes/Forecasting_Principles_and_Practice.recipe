@@ -2,4 +2,4 @@ import re
 from calibre.web.feeds.recipes import BasicNewsRecipe
 from calibre.ebooks.BeautifulSoup import NavigableString
 
-class Forecas
+class Forecasting_Principles_and_Practic
