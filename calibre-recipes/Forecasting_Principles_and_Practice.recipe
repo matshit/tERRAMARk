@@ -4,4 +4,5 @@ from calibre.ebooks.BeautifulSoup import NavigableString
 
 class Forecasting_Principles_and_Practice(BasicNewsRecipe):
 
-    title = 'Forecasting: principles and prac
+    title = 'Forecasting: principles and practice'
+    descript
