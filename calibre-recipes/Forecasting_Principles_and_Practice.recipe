@@ -7,4 +7,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
     title = 'Forecasting: principles and practice'
     description = ''
 
-    no_style
+    no_stylesheets = True
