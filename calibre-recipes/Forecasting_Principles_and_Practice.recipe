@@ -8,4 +8,6 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
     description = ''
 
     no_stylesheets = True
-    keep_only_tags = [{ 'id': re.co
+    keep_only_tags = [{ 'id': re.compile('^post-') }]
+
+   
