@@ -11,4 +11,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
     keep_only_tags = [{ 'id': re.compile('^post-') }]
 
     def get_title(self, link):
-        t
+        title = []
+     
