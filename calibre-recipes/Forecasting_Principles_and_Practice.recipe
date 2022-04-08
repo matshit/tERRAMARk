@@ -10,4 +10,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'id': re.compile('^post-') }]
 
-   
+    def get_title(self, li
