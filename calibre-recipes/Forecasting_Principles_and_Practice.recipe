@@ -13,4 +13,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
     def get_title(self, link):
         title = []
         for ele in link.contents:
-            if isinstance(el
+            if isinstance(ele, NavigableS
