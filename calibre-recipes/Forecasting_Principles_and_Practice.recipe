@@ -12,4 +12,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
 
     def get_title(self, link):
         title = []
-        for ele in link.conten
+        for ele in link.contents:
+          
