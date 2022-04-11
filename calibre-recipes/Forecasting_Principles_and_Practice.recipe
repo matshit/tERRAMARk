@@ -16,4 +16,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
             if isinstance(ele, NavigableString):
                 title.append(ele)
             else:
-                title.ap
+                title.append(ele.contents[0
