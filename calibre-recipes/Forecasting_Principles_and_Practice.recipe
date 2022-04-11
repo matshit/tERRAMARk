@@ -15,4 +15,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
         for ele in link.contents:
             if isinstance(ele, NavigableString):
                 title.append(ele)
-       
+            else:
+    
