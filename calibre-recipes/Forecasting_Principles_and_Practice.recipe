@@ -18,4 +18,6 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
             else:
                 title.append(ele.contents[0])
 
-        return 
+        return ' '.join(title)
+
+   
