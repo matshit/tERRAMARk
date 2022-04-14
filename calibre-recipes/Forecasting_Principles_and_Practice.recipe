@@ -20,4 +20,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
 
         return ' '.join(title)
 
-    def parse_ind
+    def parse_index(self):
+   
