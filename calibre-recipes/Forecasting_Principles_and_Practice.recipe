@@ -24,4 +24,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
         soup = self.index_to_soup('http://otexts.com/fpp/')
 
         articles = []
-        for li
+        for li in soup.findAll('li
