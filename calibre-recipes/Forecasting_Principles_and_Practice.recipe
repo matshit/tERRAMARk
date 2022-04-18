@@ -23,4 +23,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup('http://otexts.com/fpp/')
 
-        artic
+        articles = []
+        for li
