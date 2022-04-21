@@ -24,4 +24,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
         soup = self.index_to_soup('http://otexts.com/fpp/')
 
         articles = []
-        for li in soup.findAll('li', { 'class': re.compile('
+        for li in soup.findAll('li', { 'class': re.compile('^page_item') }):
+      
