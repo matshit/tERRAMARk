@@ -27,4 +27,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
         for li in soup.findAll('li', { 'class': re.compile('^page_item') }):
             link = li.find('a')
             title = self.get_title(link) 
- 
+            url
