@@ -28,4 +28,6 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
             link = li.find('a')
             title = self.get_title(link) 
             url = link['href']
-            a = { 'title'
+            a = { 'title': title, 'url': url }
+
+   
