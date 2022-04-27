@@ -30,4 +30,4 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
             url = link['href']
             a = { 'title': title, 'url': url }
 
-            
+            articles.append(a)
