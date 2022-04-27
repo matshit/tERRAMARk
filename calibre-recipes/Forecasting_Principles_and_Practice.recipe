@@ -31,3 +31,5 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
             a = { 'title': title, 'url': url }
 
             articles.append(a)
+
+        ans = [('F
