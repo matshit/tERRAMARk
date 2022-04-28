@@ -4,4 +4,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 clean_chapter_title_re = re.compile(r'^.*:\s*')
 
 
-class Free_as_in_Freedom(
+class Free_as_in_Freedom(BasicNewsRec
