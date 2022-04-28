@@ -1,4 +1,4 @@
 import re
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-cle
+clean_chapter_title_
