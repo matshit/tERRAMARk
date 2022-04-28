@@ -1,4 +1,4 @@
 import re
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-clean_chapter_title_
+clean_chapter_title_re = re.compile(r'^.*:\
