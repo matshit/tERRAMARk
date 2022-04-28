@@ -32,4 +32,6 @@ class Forecasting_Principles_and_Practice(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [('Forecasting: principles and practice', artic
+        ans = [('Forecasting: principles and practice', articles)]
+
+        return ans
