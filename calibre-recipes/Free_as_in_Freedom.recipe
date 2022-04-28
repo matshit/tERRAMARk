@@ -1,2 +1,2 @@
 import re
-from calibr
+from calibre.web.feeds.r
