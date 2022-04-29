@@ -7,3 +7,4 @@ clean_chapter_title_re = re.compile(r'^.*:\s*')
 class Free_as_in_Freedom(BasicNewsRecipe):
 
     title = 'Free as in Freedom'
+    description = 'R
