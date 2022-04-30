@@ -7,4 +7,5 @@ clean_chapter_title_re = re.compile(r'^.*:\s*')
 class Free_as_in_Freedom(BasicNewsRecipe):
 
     title = 'Free as in Freedom'
-    description = 'Richard Stallman\'s Crusade for Free So
+    description = 'Richard Stallman\'s Crusade for Free Software'
+    cover_url
