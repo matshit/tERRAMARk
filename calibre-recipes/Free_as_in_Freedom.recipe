@@ -10,4 +10,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
     description = 'Richard Stallman\'s Crusade for Free Software'
     cover_url = 'http://akamaicovers.oreilly.com/images/9780596002879/lrg.jpg'
 
-    url_prefix = 'http://
+    url_prefix = 'http://www.oreilly.com/open
