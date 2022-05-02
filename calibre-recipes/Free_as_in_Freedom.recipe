@@ -13,4 +13,5 @@ class Free_as_in_Freedom(BasicNewsRecipe):
     url_prefix = 'http://www.oreilly.com/openbook/freedom/'
     no_stylesheets = True
     remove_javascript = True
-    remove_empty
+    remove_empty_feeds = True
+    k
