@@ -11,4 +11,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
     cover_url = 'http://akamaicovers.oreilly.com/images/9780596002879/lrg.jpg'
 
     url_prefix = 'http://www.oreilly.com/openbook/freedom/'
-    n
+    no_stylesheets = T
