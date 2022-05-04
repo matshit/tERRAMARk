@@ -20,4 +20,5 @@ class Free_as_in_Freedom(BasicNewsRecipe):
         title = link.contents[0].strip()
         return clean_chapter_title_re.sub('', title)
 
-   
+    def parse_index(self):
+       
