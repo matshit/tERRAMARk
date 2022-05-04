@@ -18,4 +18,6 @@ class Free_as_in_Freedom(BasicNewsRecipe):
 
     def get_title(self, link):
         title = link.contents[0].strip()
-        return clean_chapter_title_re.
+        return clean_chapter_title_re.sub('', title)
+
+   
