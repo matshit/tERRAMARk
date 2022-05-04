@@ -17,3 +17,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
     keep_only_tags = [dict(name = 'blockquote')]
 
     def get_title(self, link):
+        title =
