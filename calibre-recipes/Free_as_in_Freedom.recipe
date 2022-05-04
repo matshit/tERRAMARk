@@ -16,4 +16,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
     remove_empty_feeds = True
     keep_only_tags = [dict(name = 'blockquote')]
 
-    def get_titl
+    def get_title(self, link):
