@@ -14,4 +14,6 @@ class Free_as_in_Freedom(BasicNewsRecipe):
     no_stylesheets = True
     remove_javascript = True
     remove_empty_feeds = True
-    keep_only_tags = [dict(name = 'blockqu
+    keep_only_tags = [dict(name = 'blockquote')]
+
+    def get_titl
