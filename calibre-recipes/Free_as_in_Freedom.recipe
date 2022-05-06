@@ -21,4 +21,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
         return clean_chapter_title_re.sub('', title)
 
     def parse_index(self):
-        soup = self.inde
+        soup = self.index_to_soup(sel
