@@ -22,4 +22,6 @@ class Free_as_in_Freedom(BasicNewsRecipe):
 
     def parse_index(self):
         soup = self.index_to_soup(self.url_prefix + 'index.html')
-        chapter_list = soup.fin
+        chapter_list = soup.find('blockquote')
+
+   
