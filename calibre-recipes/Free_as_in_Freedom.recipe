@@ -25,4 +25,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
         chapter_list = soup.find('blockquote')
 
         chapters = []
-      
+        for link in chapt
