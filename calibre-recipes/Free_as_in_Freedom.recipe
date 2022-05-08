@@ -27,4 +27,6 @@ class Free_as_in_Freedom(BasicNewsRecipe):
         chapters = []
         for link in chapter_list.findAll('a'):
             if not 'ch' in link['href']:
-                
+                continue
+
+           
