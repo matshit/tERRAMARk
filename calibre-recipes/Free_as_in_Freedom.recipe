@@ -29,4 +29,5 @@ class Free_as_in_Freedom(BasicNewsRecipe):
             if not 'ch' in link['href']:
                 continue
 
-            title = self.get_titl
+            title = self.get_title(link) 
+          
