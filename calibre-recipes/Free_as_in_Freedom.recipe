@@ -30,4 +30,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
                 continue
 
             title = self.get_title(link) 
-            url = self.url_pr
+            url = self.url_prefix + link['href
