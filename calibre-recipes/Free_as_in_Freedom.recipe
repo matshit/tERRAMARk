@@ -33,4 +33,6 @@ class Free_as_in_Freedom(BasicNewsRecipe):
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
 
-            chapters.
+            chapters.append(a)
+
+      
