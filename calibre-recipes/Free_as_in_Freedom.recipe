@@ -35,4 +35,4 @@ class Free_as_in_Freedom(BasicNewsRecipe):
 
             chapters.append(a)
 
-        return [(self.tit
+        return [(self.title, chapters
