@@ -1,1 +1,1 @@
-from calibre
+from calibre.web.feeds.recipes 
