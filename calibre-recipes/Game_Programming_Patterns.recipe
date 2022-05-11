@@ -1,3 +1,3 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class Game_Programming_Patterns
+class Game_Programming_Patterns(BasicNewsRecip
