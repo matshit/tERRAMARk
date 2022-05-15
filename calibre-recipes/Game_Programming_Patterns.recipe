@@ -3,4 +3,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class Game_Programming_Patterns(BasicNewsRecipe):
 
     title = 'Game Programming Patterns'
-    
+    description = ''
+  
