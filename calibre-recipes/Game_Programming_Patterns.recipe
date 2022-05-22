@@ -9,4 +9,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
     keep_only_tags = [{ 'class': 'content' }]
 
 
- 
+    def parse_
