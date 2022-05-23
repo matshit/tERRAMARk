@@ -12,4 +12,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
     def parse_index(self):
         roman_numbers = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII']
 
-        soup = self.inde
+        soup = self.index_to_soup(self.url_pr
