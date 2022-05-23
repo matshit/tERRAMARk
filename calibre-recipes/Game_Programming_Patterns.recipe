@@ -10,4 +10,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
 
 
     def parse_index(self):
-        roman_numbers = ['', 'I', 'II'
+        roman_numbers = ['', 'I', 'II', 'III', 'IV', 'V', 'V
