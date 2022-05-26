@@ -15,4 +15,5 @@ class Game_Programming_Patterns(BasicNewsRecipe):
         soup = self.index_to_soup(self.url_prefix + 'contents.html')
         toc_root = soup.find('ol', { 'type': 'I' })
 
-        articles
+        articles = []
+        sec
