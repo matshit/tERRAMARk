@@ -13,4 +13,6 @@ class Game_Programming_Patterns(BasicNewsRecipe):
         roman_numbers = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII']
 
         soup = self.index_to_soup(self.url_prefix + 'contents.html')
-        toc_root = soup.find('ol', { 'type':
+        toc_root = soup.find('ol', { 'type': 'I' })
+
+        articles
