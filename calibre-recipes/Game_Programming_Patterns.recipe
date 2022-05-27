@@ -17,4 +17,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
 
         articles = []
         section_index = 1
-      
+        artical_inde
