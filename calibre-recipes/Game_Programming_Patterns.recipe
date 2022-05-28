@@ -17,4 +17,5 @@ class Game_Programming_Patterns(BasicNewsRecipe):
 
         articles = []
         section_index = 1
-        artical_inde
+        artical_index = 0
+        for link
