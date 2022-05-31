@@ -22,4 +22,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
             link = link_wrapper.find('a')
             raw_title = link.contents[0].strip()
 
-            if (link_wrapper.find('str
+            if (link_wrapper.find('strong') and link
