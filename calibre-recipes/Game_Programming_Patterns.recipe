@@ -23,4 +23,5 @@ class Game_Programming_Patterns(BasicNewsRecipe):
             raw_title = link.contents[0].strip()
 
             if (link_wrapper.find('strong') and link_wrapper.find('ol')):
-                title = roman_numbers[section_index] + '. ' +
+                title = roman_numbers[section_index] + '. ' + raw_title
+ 
