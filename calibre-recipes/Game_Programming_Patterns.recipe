@@ -26,4 +26,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
                 title = roman_numbers[section_index] + '. ' + raw_title
                 section_index = section_index + 1
             else:
-            
+                if (artical_i
