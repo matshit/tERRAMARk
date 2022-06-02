@@ -28,4 +28,5 @@ class Game_Programming_Patterns(BasicNewsRecipe):
             else:
                 if (artical_index == 0):
                     title = raw_title
-     
+                else:
+      
