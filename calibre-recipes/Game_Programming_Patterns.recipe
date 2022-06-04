@@ -36,4 +36,6 @@ class Game_Programming_Patterns(BasicNewsRecipe):
             a = { 'title': title, 'url': url }
             articles.append(a)
 
-        ans = [(title, articles)
+        ans = [(title, articles)]
+
+        return a
