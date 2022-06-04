@@ -34,4 +34,6 @@ class Game_Programming_Patterns(BasicNewsRecipe):
 
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
-            articles.
+            articles.append(a)
+
+        a
