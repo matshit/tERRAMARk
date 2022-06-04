@@ -30,4 +30,6 @@ class Game_Programming_Patterns(BasicNewsRecipe):
                     title = raw_title
                 else:
                     title = str(artical_index) + '. ' + raw_title
-                artical_index= artical_index + 
+                artical_index= artical_index + 1
+
+            url = self
