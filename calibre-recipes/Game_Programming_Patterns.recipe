@@ -33,4 +33,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
                 artical_index= artical_index + 1
 
             url = self.url_prefix + link['href']
-        
+            a = { 'title':
