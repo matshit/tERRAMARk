@@ -38,4 +38,4 @@ class Game_Programming_Patterns(BasicNewsRecipe):
 
         ans = [(title, articles)]
 
-        return a
+        return ans
