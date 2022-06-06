@@ -2,4 +2,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
      
 class Git_Pocket_Guide(BasicNewsRecipe):
      
-    title = 'Git
+    title = 'Git Pocket Guide'
+    desc
