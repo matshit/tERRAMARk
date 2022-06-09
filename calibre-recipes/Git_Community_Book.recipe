@@ -8,4 +8,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
      
     url_prefix = 'http://gitbook.liuhui998.com/'
     no_stylesheets = True
-   
+    # keep_only_t
