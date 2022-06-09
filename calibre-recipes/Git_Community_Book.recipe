@@ -10,4 +10,5 @@ class Git_Pocket_Guide(BasicNewsRecipe):
     no_stylesheets = True
     # keep_only_tags = [{ 'class': 'span-21' }]
      
-    def get_t
+    def get_title(self, link):
+      
