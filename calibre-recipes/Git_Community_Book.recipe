@@ -17,4 +17,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
         articles = []
 
         soup = self.index_to_soup(self.url_prefix + 'index.html')
-        tag_td 
+        tag_td = soup.findAl
