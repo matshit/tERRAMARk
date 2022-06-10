@@ -16,4 +16,5 @@ class Git_Pocket_Guide(BasicNewsRecipe):
     def parse_index(self):
         articles = []
 
-        soup = self.index_to_soup(self.url_prefix + 'index.h
+        soup = self.index_to_soup(self.url_prefix + 'index.html')
+        tag_td 
