@@ -20,4 +20,6 @@ class Git_Pocket_Guide(BasicNewsRecipe):
         tag_td = soup.findAll('td')
         for volume in tag_td:
             if len(volume.contents) < 3:
-                conti
+                continue
+
+         
