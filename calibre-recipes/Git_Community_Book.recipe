@@ -22,4 +22,5 @@ class Git_Pocket_Guide(BasicNewsRecipe):
             if len(volume.contents) < 3:
                 continue
 
-            for link in volume.findAll
+            for link in volume.findAll('a'): 
+            
