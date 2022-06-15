@@ -25,4 +25,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
             for link in volume.findAll('a'): 
                 if not '.html' in link['href']:
                     continue
-                
+                til = self.get
