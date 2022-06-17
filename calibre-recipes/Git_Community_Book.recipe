@@ -29,4 +29,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
                 url = self.url_prefix + link['href']
                 a = { 'title': til, 'url': url }
          
-           
+                articles.app
