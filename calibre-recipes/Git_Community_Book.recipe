@@ -31,4 +31,5 @@ class Git_Pocket_Guide(BasicNewsRecipe):
          
                 articles.append(a)
 
-        ans = [('Git Community Book 中文版
+        ans = [('Git Community Book 中文版', articles)]
+ 
