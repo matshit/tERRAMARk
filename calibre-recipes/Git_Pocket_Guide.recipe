@@ -11,4 +11,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
     keep_only_tags = [{ 'class': 'chapter' }]
 
     def get_title(self, link):
-        return link.c
+        return link.contents[0].stri
