@@ -14,4 +14,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
-        soup = self.index_to_soup(self.url_pre
+        soup = self.index_to_soup(self.url_prefix + 'index.html')
