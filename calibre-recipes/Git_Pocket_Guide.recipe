@@ -19,4 +19,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
         div = soup.find('div', { 'class': 'toc' })
 
         articles = []
-    
+        for link in div.findAll('
