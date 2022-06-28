@@ -21,4 +21,6 @@ class Git_Pocket_Guide(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a'):
             if '#' in link['href']:
-          
+                continue
+
+ 
