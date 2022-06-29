@@ -23,4 +23,4 @@ class Git_Pocket_Guide(BasicNewsRecipe):
             if '#' in link['href']:
                 continue
 
- 
+            if 
