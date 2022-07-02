@@ -1,4 +1,4 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 import re
 
-class High_Performance_Browser_Netw
+class High_Performance_Browser_Networking(BasicNewsR
