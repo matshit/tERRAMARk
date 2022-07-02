@@ -5,4 +5,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
 
     title = 'High Performance Browser Networking'
     description = ''
-    cover_url = 'http://orm-other.s3.amazonaws
+    cover_url = 'http://orm-other.s3.amazonaws.com/hpbnsplash/hpb
