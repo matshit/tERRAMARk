@@ -7,4 +7,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
     description = ''
     cover_url = 'http://orm-other.s3.amazonaws.com/hpbnsplash/hpbncover.jpg'
 
-    url_prefix = 'http://chim
+    url_prefix = 'http://chimera.labs.oreilly.com
