@@ -11,4 +11,5 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'class': ['preface', 'chapter', 'index', 'colophon'] }]
 
-    def get_titl
+    def get_title(self, link):
+        ret
