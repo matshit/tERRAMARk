@@ -14,4 +14,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
     def get_title(self, link):
         return link.contents[0].strip()
 
-    def appe
+    def append_colophon(self, 
