@@ -15,4 +15,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def append_colophon(self, articles):
-        colophon = {'title': 'Colop
+        colophon = {'title': 'Colophon', 'url': self.url_prefi
