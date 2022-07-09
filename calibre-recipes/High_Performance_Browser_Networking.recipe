@@ -9,4 +9,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
 
     url_prefix = 'http://chimera.labs.oreilly.com/books/1230000000545/'
     no_stylesheets = True
-    keep_only_tags = [{ 'class': ['preface', 'chapter
+    keep_only_tags = [{ 'class': ['preface', 'chapter', 'index', 'colophon
