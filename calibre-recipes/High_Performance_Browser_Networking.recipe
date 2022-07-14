@@ -18,4 +18,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
         colophon = {'title': 'Colophon', 'url': self.url_prefix + 'co01.html'}
         articles.append(colophon)
 
-    def p
+    def parse_index(self
