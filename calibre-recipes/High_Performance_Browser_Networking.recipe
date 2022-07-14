@@ -16,4 +16,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
 
     def append_colophon(self, articles):
         colophon = {'title': 'Colophon', 'url': self.url_prefix + 'co01.html'}
-        artic
+        articles.append(co
