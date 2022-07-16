@@ -19,4 +19,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
         articles.append(colophon)
 
     def parse_index(self):
-        soup = self.index_to_soup(self.url_prefix + '
+        soup = self.index_to_soup(self.url_prefix + 'index.html')
