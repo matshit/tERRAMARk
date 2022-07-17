@@ -23,4 +23,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
 
         div = soup.find('div', { 'class': 'toc' })
 
-        p = re.compil
+        p = re.compile('(pr|ch|ix)\d+\.html
