@@ -25,4 +25,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
 
         p = re.compile('(pr|ch|ix)\d+\.html$')
         articles = []
-        f
+        for link in div.findAl
