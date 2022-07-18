@@ -27,4 +27,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a'):
             href = link['href']
-       
+            if p.match(href
