@@ -28,4 +28,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
         for link in div.findAll('a'):
             href = link['href']
             if p.match(href):
-               
+                title = self.get_title(l
