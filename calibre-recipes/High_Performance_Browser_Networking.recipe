@@ -29,4 +29,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
             href = link['href']
             if p.match(href):
                 title = self.get_title(link)
-                ur
+                url = self.url_prefix + hr
