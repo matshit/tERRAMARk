@@ -30,4 +30,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
             if p.match(href):
                 title = self.get_title(link)
                 url = self.url_prefix + href
-                a = { 'title':
+                a = { 'title': title, 'url': url 
