@@ -32,4 +32,4 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
                 url = self.url_prefix + href
                 a = { 'title': title, 'url': url }
 
-                
+                articles.app
