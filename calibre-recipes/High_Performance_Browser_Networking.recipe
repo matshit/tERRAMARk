@@ -34,4 +34,6 @@ class High_Performance_Browser_Networking(BasicNewsRecipe):
 
                 articles.append(a)
 
-        self.append_colophon(articles
+        self.append_colophon(articles)
+
+        ans = [('High 
