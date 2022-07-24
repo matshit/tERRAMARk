@@ -1,1 +1,3 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
+ 
+class House_Trans
