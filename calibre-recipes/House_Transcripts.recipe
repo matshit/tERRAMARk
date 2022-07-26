@@ -4,4 +4,4 @@ class House_Transcripts(BasicNewsRecipe):
  
     title = 'House Transcripts'
     description = ''
-    cover_url = 'http://lolsnaps.com/upload_pic/WhatILearnedFr
+    cover_url = 'http://lolsnaps.com/upload_pic/WhatILearnedFromHouseMD-33384.jpeg'
