@@ -2,4 +2,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
  
 class House_Transcripts(BasicNewsRecipe):
  
-    title = 'House Transcrip
+    title = 'House Transcripts'
+    descripti
