@@ -6,4 +6,5 @@ class House_Transcripts(BasicNewsRecipe):
     description = ''
     cover_url = 'http://lolsnaps.com/upload_pic/WhatILearnedFromHouseMD-33384.jpeg'
  
-    url_prefix = 'http://clinic-duty.livejour
+    url_prefix = 'http://clinic-duty.livejournal.com/'
+    no_stylesheet
