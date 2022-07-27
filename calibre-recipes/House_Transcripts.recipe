@@ -11,4 +11,4 @@ class House_Transcripts(BasicNewsRecipe):
     keep_only_tags = [{ 'class': 'entryText' }]
  
     def get_title(self, link):
-        ret
+        return link.contents[0].s
