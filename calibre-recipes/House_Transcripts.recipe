@@ -13,4 +13,4 @@ class House_Transcripts(BasicNewsRecipe):
     def get_title(self, link):
         return link.contents[0].strip()
  
-    de
+    def parse_index(self):
