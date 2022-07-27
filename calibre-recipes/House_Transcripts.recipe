@@ -8,4 +8,6 @@ class House_Transcripts(BasicNewsRecipe):
  
     url_prefix = 'http://clinic-duty.livejournal.com/'
     no_stylesheets = True
-    keep_only_tags = [{ 'c
+    keep_only_tags = [{ 'class': 'entryText' }]
+ 
+  
