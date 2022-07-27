@@ -10,4 +10,5 @@ class House_Transcripts(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'class': 'entryText' }]
  
-    def get_title(self, l
+    def get_title(self, link):
+        ret
