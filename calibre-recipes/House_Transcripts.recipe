@@ -16,4 +16,4 @@ class House_Transcripts(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup('http://clinic-duty.livejournal.com/12225.html')
  
-   
+        div = soup.find('
