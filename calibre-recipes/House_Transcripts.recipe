@@ -19,4 +19,5 @@ class House_Transcripts(BasicNewsRecipe):
         div = soup.find('div', { 'class': 'entryText' })
  
         articles = []
-        for link in div.find
+        for link in div.findAll('a'):
+      
