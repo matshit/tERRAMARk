@@ -21,4 +21,4 @@ class House_Transcripts(BasicNewsRecipe):
         articles = []
         for link in div.findAll('a'):
             if 'season' in link['href']:
-        
+                conti
