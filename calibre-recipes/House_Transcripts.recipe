@@ -28,4 +28,4 @@ class House_Transcripts(BasicNewsRecipe):
  
             til = self.get_title(link)
             url = link['href']
-            a = { 
+            a = { 'title': til, 'u
