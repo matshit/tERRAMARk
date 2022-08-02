@@ -23,4 +23,5 @@ class House_Transcripts(BasicNewsRecipe):
             if 'season' in link['href']:
                 continue
  
-            # if not 'ch' in link
+            # if not 'ch' in link['href']:
+            # 
