@@ -26,4 +26,5 @@ class House_Transcripts(BasicNewsRecipe):
             # if not 'ch' in link['href']:
             #     continue
  
-            til = self.get_
+            til = self.get_title(link)
+          
