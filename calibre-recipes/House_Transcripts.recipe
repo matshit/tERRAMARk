@@ -24,4 +24,6 @@ class House_Transcripts(BasicNewsRecipe):
                 continue
  
             # if not 'ch' in link['href']:
-            # 
+            #     continue
+ 
+      
