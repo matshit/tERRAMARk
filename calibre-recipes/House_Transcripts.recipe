@@ -30,4 +30,5 @@ class House_Transcripts(BasicNewsRecipe):
             url = link['href']
             a = { 'title': til, 'url': url }
  
-            arti
+            articles.append(a)
+ 
