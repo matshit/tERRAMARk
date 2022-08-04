@@ -34,4 +34,4 @@ class House_Transcripts(BasicNewsRecipe):
  
         ans = [('House_Transcripts', articles)]
  
-       
+        return ans
