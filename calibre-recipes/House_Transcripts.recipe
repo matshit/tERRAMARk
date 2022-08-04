@@ -32,4 +32,4 @@ class House_Transcripts(BasicNewsRecipe):
  
             articles.append(a)
  
-        ans = [('House
+        ans = [('House_Transcripts', article
