@@ -1,1 +1,1 @@
-from calibre.web.fe
+from calibre.web.feeds.news import Basic
