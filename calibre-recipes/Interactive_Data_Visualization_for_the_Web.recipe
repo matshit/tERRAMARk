@@ -30,3 +30,9 @@ class Interactive_Data_Visualization_for_the_Web(BasicNewsRecipe):
             title = self.get_title(link) 
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
+
+            articles.append(a)
+
+        ans = [(title, articles)]
+
+        return ans
