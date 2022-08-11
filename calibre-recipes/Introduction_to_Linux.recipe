@@ -6,4 +6,5 @@ class IntroductionToLinux(BasicNewsRecipe):
     description = 'Introduction_to_Linux'
     timefmt = '[%Y-%m-%d]'
     no_stylesheets = True
-    url_prefix = 'http://tldp.org/LDP/in
+    url_prefix = 'http://tldp.org/LDP/intro-linux/html/'
+ 
