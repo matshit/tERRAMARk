@@ -4,4 +4,5 @@ class IntroductionToLinux(BasicNewsRecipe):
     title = 'Introduction_to_Linux'
     __author__ = 'soooldier & lord63'
     description = 'Introduction_to_Linux'
-    timefmt = '[%Y
+    timefmt = '[%Y-%m-%d]'
+    no
