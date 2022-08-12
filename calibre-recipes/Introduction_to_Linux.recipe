@@ -7,4 +7,4 @@ class IntroductionToLinux(BasicNewsRecipe):
     timefmt = '[%Y-%m-%d]'
     no_stylesheets = True
     url_prefix = 'http://tldp.org/LDP/intro-linux/html/'
-    keep_only_tags =[dict(name='div', attrs={'class':
+    keep_only_tags =[dict(name='div', attrs={'class': 'GLOSSARY'
