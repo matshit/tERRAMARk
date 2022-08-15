@@ -8,4 +8,5 @@ class IntroductionToLinux(BasicNewsRecipe):
     no_stylesheets = True
     url_prefix = 'http://tldp.org/LDP/intro-linux/html/'
     keep_only_tags =[dict(name='div', attrs={'class': 'GLOSSARY'}), # the glossary
-                     dict(name='div', attrs={'class': 'chapter'}),  # normal chap
+                     dict(name='div', attrs={'class': 'chapter'}),  # normal chapter
+                
