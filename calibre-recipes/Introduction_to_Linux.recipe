@@ -9,4 +9,5 @@ class IntroductionToLinux(BasicNewsRecipe):
     url_prefix = 'http://tldp.org/LDP/intro-linux/html/'
     keep_only_tags =[dict(name='div', attrs={'class': 'GLOSSARY'}), # the glossary
                      dict(name='div', attrs={'class': 'chapter'}),  # normal chapter
-                     dict(name='div', attrs={'class': 'preface'}),  # 
+                     dict(name='div', attrs={'class': 'preface'}),  # the introduction
+  
