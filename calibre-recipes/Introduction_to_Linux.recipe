@@ -10,4 +10,5 @@ class IntroductionToLinux(BasicNewsRecipe):
     keep_only_tags =[dict(name='div', attrs={'class': 'GLOSSARY'}), # the glossary
                      dict(name='div', attrs={'class': 'chapter'}),  # normal chapter
                      dict(name='div', attrs={'class': 'preface'}),  # the introduction
-                     dict(name='div', attrs={'class': 'sec
+                     dict(name='div', attrs={'class': 'sect1'}),  # other contents 
+     
