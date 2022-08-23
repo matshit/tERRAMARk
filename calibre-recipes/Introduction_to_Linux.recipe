@@ -12,3 +12,4 @@ class IntroductionToLinux(BasicNewsRecipe):
                      dict(name='div', attrs={'class': 'preface'}),  # the introduction
                      dict(name='div', attrs={'class': 'sect1'}),  # other contents 
                      dict(name='div', attrs={'class': 'section'}),  # contents in introduction
+                     di
