@@ -16,3 +16,5 @@ class IntroductionToLinux(BasicNewsRecipe):
 
 
     def get_title(self, tag):
+        prefix = ''
+  
