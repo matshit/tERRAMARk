@@ -15,3 +15,4 @@ class IntroductionToLinux(BasicNewsRecipe):
                      dict(name='div', attrs={'class': 'appendix'})]  # appendix B
 
 
+    def get_titl
