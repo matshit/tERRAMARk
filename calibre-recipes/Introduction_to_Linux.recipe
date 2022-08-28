@@ -18,4 +18,4 @@ class IntroductionToLinux(BasicNewsRecipe):
     def get_title(self, tag):
         prefix = ''
         # I think a subtitle should have indent.
-        if tag.pare
+        if tag.parent.parent.name == 'dd':
