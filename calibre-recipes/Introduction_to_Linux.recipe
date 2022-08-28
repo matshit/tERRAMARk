@@ -20,4 +20,4 @@ class IntroductionToLinux(BasicNewsRecipe):
         # I think a subtitle should have indent.
         if tag.parent.parent.name == 'dd':
             prefix = '===='
-        # Some
+        # Some title don't ha
