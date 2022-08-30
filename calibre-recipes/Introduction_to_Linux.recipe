@@ -22,4 +22,4 @@ class IntroductionToLinux(BasicNewsRecipe):
             prefix = '===='
         # Some title don't have a num, for example, the 'Introduction'.
         if not isinstance(tag.contents[0], basestring):
-           
+            return pref
