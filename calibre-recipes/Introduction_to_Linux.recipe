@@ -21,4 +21,5 @@ class IntroductionToLinux(BasicNewsRecipe):
         if tag.parent.parent.name == 'dd':
             prefix = '===='
         # Some title don't have a num, for example, the 'Introduction'.
-        if not isinstance(tag.contents[0], base
+        if not isinstance(tag.contents[0], basestring):
+           
