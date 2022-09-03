@@ -23,4 +23,5 @@ class IntroductionToLinux(BasicNewsRecipe):
         # Some title don't have a num, for example, the 'Introduction'.
         if not isinstance(tag.contents[0], basestring):
             return prefix + tag.a.contents[0].strip()
-        
+        else:
+            r
