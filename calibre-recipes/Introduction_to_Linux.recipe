@@ -24,4 +24,4 @@ class IntroductionToLinux(BasicNewsRecipe):
         if not isinstance(tag.contents[0], basestring):
             return prefix + tag.a.contents[0].strip()
         else:
-            r
+            return prefix + tag.conten
