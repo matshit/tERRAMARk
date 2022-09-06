@@ -27,4 +27,5 @@ class IntroductionToLinux(BasicNewsRecipe):
             return prefix + tag.contents[0] + tag.a.contents[0].strip()
 
 
-    def parse_in
+    def parse_index(self):
+        
