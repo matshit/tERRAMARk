@@ -29,4 +29,4 @@ class IntroductionToLinux(BasicNewsRecipe):
 
     def parse_index(self):
         soup = self.index_to_soup(self.url_prefix)
-        toc = soup.
+        toc = soup.find('div', {'class'
