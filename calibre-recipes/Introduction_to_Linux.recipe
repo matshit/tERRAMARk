@@ -28,4 +28,4 @@ class IntroductionToLinux(BasicNewsRecipe):
 
 
     def parse_index(self):
-        
+        soup = self.index_to_s
