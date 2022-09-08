@@ -32,4 +32,5 @@ class IntroductionToLinux(BasicNewsRecipe):
         toc = soup.find('div', {'class': 'TOC'})
         articles = []
 
-        for tag in toc.findAll(
+        for tag in toc.findAll('dt'):
+            
