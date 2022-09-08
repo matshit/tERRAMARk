@@ -33,4 +33,5 @@ class IntroductionToLinux(BasicNewsRecipe):
         articles = []
 
         for tag in toc.findAll('dt'):
-            # Drop the 'List of Tables' and 'List of
+            # Drop the 'List of Tables' and 'List of Figures' section.
+     
