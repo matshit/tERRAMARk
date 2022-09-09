@@ -34,4 +34,5 @@ class IntroductionToLinux(BasicNewsRecipe):
 
         for tag in toc.findAll('dt'):
             # Drop the 'List of Tables' and 'List of Figures' section.
-            if tag
+            if tag.a == None:
+     
