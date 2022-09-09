@@ -36,3 +36,4 @@ class IntroductionToLinux(BasicNewsRecipe):
             # Drop the 'List of Tables' and 'List of Figures' section.
             if tag.a == None:
                 continue
+            # Dr
