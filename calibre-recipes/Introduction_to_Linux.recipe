@@ -37,4 +37,5 @@ class IntroductionToLinux(BasicNewsRecipe):
             if tag.a == None:
                 continue
             # Drop the index section.
-            if 'i14033.html
+            if 'i14033.html' in tag.a['href']:
+  
