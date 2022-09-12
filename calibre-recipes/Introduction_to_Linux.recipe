@@ -38,4 +38,5 @@ class IntroductionToLinux(BasicNewsRecipe):
                 continue
             # Drop the index section.
             if 'i14033.html' in tag.a['href']:
-                
+                continue
+         
