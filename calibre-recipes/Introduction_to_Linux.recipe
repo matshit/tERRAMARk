@@ -41,4 +41,4 @@ class IntroductionToLinux(BasicNewsRecipe):
                 continue
             title = self.get_title(tag)
             url = self.url_prefix + tag.a['href']
-           
+            article = {'title': t
