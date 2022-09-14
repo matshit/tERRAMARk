@@ -43,4 +43,4 @@ class IntroductionToLinux(BasicNewsRecipe):
             url = self.url_prefix + tag.a['href']
             article = {'title': title, 'url': url}
             articles.append(article)
-        ans = [('Int
+        ans = [('Introduction_to_Lin
