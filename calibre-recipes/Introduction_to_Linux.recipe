@@ -45,3 +45,4 @@ class IntroductionToLinux(BasicNewsRecipe):
             articles.append(article)
         ans = [('Introduction_to_Linux', articles)]
 
+        return ans

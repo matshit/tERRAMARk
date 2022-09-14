@@ -1,0 +1,6 @@
+
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class LearnPythonTheHardWay(BasicNewsRecipe):
+    title = 'learn_python_the_hard_way'
+    __author__ = 'lord63'
