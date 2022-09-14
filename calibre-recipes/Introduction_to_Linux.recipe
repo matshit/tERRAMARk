@@ -42,4 +42,5 @@ class IntroductionToLinux(BasicNewsRecipe):
             title = self.get_title(tag)
             url = self.url_prefix + tag.a['href']
             article = {'title': title, 'url': url}
-            articles.append(arti
+            articles.append(article)
+        ans = [('Int
