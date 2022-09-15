@@ -27,3 +27,10 @@ class LearnPythonTheHardWay(BasicNewsRecipe):
     def postprocess_html(self, soup, first_fetch):
         first = True
         for text in soup.findAll('div', {'class': 'large-12 columns'}):
+            if first:
+                first = False
+            else:
+                text.extract()
+        return soup
+
+
