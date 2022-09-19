@@ -1,3 +1,5 @@
 RECIPES := $(shell /bin/ls -A *.recipe)
 
-all: $(
+all: $(RECIPES:.recipe=.mobi)
+
+%.mob
