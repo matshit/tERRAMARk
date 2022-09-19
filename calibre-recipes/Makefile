@@ -1,1 +1,1 @@
-RECIPES :
+RECIPES := $(shell /bin/ls -A *.rec
