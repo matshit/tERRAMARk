@@ -1,1 +1,3 @@
-RECIPES := $(shell /bin/ls -A *.rec
+RECIPES := $(shell /bin/ls -A *.recipe)
+
+all: $(
