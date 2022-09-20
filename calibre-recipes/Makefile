@@ -4,3 +4,7 @@ all: $(RECIPES:.recipe=.mobi)
 
 %.mobi: %.recipe
 	ebook-convert $< $@
+
+.PHONY: clean
+
+clea
