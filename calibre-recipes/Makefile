@@ -7,4 +7,5 @@ all: $(RECIPES:.recipe=.mobi)
 
 .PHONY: clean
 
-clea
+clean:
+	$(RM) *.mobi
