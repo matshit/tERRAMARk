@@ -1,3 +1,5 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class Mastering_Perl(BasicNewsRec
+class Mastering_Perl(BasicNewsRecipe):
+
+    title = 'Mast
