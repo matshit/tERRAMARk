@@ -1,1 +1,1 @@
-from calibre.web.feeds.recipe
+from calibre.web.feeds.recipes import Basic
