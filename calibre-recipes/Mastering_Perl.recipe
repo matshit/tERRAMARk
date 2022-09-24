@@ -4,4 +4,6 @@ class Mastering_Perl(BasicNewsRecipe):
 
     title = 'Mastering Perl'
     description = ''
-    cover_url = 'http://akamaicovers.oreilly.com/images/97805965
+    cover_url = 'http://akamaicovers.oreilly.com/images/9780596527242/lrg.jpg'
+
+   
