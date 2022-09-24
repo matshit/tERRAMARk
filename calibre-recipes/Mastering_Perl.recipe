@@ -3,4 +3,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class Mastering_Perl(BasicNewsRecipe):
 
     title = 'Mastering Perl'
-    description
+    description = ''
+    cover_url = 'http:
