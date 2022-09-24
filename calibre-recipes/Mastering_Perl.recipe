@@ -6,4 +6,4 @@ class Mastering_Perl(BasicNewsRecipe):
     description = ''
     cover_url = 'http://akamaicovers.oreilly.com/images/9780596527242/lrg.jpg'
 
-    url_prefix = 'htt
+    url_prefix = 'http://chimera.l
