@@ -2,4 +2,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Mastering_Perl(BasicNewsRecipe):
 
-    title = 'Mast
+    title = 'Mastering Perl'
+    description
