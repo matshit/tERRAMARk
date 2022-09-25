@@ -8,4 +8,4 @@ class Mastering_Perl(BasicNewsRecipe):
 
     url_prefix = 'http://chimera.labs.oreilly.com/books/1234000001527/'
     no_stylesheets = True
-  
+    keep_only_ta
