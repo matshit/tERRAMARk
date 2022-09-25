@@ -7,4 +7,5 @@ class Mastering_Perl(BasicNewsRecipe):
     cover_url = 'http://akamaicovers.oreilly.com/images/9780596527242/lrg.jpg'
 
     url_prefix = 'http://chimera.labs.oreilly.com/books/1234000001527/'
-    no_s
+    no_stylesheets = True
+  
