@@ -11,4 +11,4 @@ class Mastering_Perl(BasicNewsRecipe):
     keep_only_tags = [{ 'class': 'chapter' }]
 
     def get_title(self, link):
-       
+        return link.c
