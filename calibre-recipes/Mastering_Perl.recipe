@@ -8,4 +8,6 @@ class Mastering_Perl(BasicNewsRecipe):
 
     url_prefix = 'http://chimera.labs.oreilly.com/books/1234000001527/'
     no_stylesheets = True
-    keep_only_tags = [{ 'clas
+    keep_only_tags = [{ 'class': 'chapter' }]
+
+    d
