@@ -10,4 +10,4 @@ class Mastering_Perl(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'class': 'chapter' }]
 
-    d
+    def get_title(se
