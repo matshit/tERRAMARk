@@ -16,4 +16,6 @@ class Mastering_Perl(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup(self.url_prefix + 'index.html')
 
-        div = soup.find('div', { 'cla
+        div = soup.find('div', { 'class': 'toc' })
+
+      
