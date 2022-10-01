@@ -23,4 +23,4 @@ class Mastering_Perl(BasicNewsRecipe):
             if '#' in link['href']:
                 continue
 
-            if not 'ch' in li
+            if not 'ch' in link['href']:
