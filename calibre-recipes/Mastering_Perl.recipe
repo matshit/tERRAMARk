@@ -27,4 +27,4 @@ class Mastering_Perl(BasicNewsRecipe):
                 continue
 
             title = self.get_title(link) 
-           
+            url = self.url
