@@ -26,4 +26,4 @@ class Mastering_Perl(BasicNewsRecipe):
             if not 'ch' in link['href']:
                 continue
 
- 
+            title = self.get
