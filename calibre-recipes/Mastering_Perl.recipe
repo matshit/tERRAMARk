@@ -32,4 +32,4 @@ class Mastering_Perl(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [(t
+        ans = [(title, articles)]
