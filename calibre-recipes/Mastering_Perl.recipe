@@ -29,3 +29,5 @@ class Mastering_Perl(BasicNewsRecipe):
             title = self.get_title(link) 
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
+
+            articles.a
