@@ -30,4 +30,6 @@ class Mastering_Perl(BasicNewsRecipe):
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
 
-            articles.a
+            articles.append(a)
+
+        ans = [(t
