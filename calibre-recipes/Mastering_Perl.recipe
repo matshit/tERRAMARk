@@ -34,4 +34,4 @@ class Mastering_Perl(BasicNewsRecipe):
 
         ans = [(title, articles)]
 
-        return a
+        return ans
