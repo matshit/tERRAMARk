@@ -1,3 +1,5 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class Nature_of_Code_the(BasicNewsR
+class Nature_of_Code_the(BasicNewsRecipe):
+
+    title = 'Th
