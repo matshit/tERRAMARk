@@ -33,3 +33,5 @@ class Mastering_Perl(BasicNewsRecipe):
             articles.append(a)
 
         ans = [(title, articles)]
+
+        return a
