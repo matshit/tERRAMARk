@@ -2,4 +2,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Nature_of_Code_the(BasicNewsRecipe):
 
-    title = 'Th
+    title = 'The Nature of C
