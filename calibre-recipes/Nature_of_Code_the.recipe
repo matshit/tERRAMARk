@@ -3,4 +3,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class Nature_of_Code_the(BasicNewsRecipe):
 
     title = 'The Nature of Code'
-    descri
+    description = ''
+    cover_ur
