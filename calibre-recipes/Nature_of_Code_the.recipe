@@ -4,4 +4,4 @@ class Nature_of_Code_the(BasicNewsRecipe):
 
     title = 'The Nature of Code'
     description = ''
-    cover_url = 'http://www.vjsmag.com/wp-content/uploads/2014/06/
+    cover_url = 'http://www.vjsmag.com/wp-content/uploads/2014/06/vjs-magazine-The-Na
