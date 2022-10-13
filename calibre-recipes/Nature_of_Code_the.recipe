@@ -6,4 +6,5 @@ class Nature_of_Code_the(BasicNewsRecipe):
     description = ''
     cover_url = 'http://www.vjsmag.com/wp-content/uploads/2014/06/vjs-magazine-The-Nature-Code-Simulating-Processing.jpg'
     url_prefix = 'http://natureofcode.com'
-    no_stylesheets = T
+    no_stylesheets = True
+    keep_only_tags = [
