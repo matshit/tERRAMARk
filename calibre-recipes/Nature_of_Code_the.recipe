@@ -12,4 +12,4 @@ class Nature_of_Code_the(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup(self.url_prefix + '/book/')
 
-        div = soup.find('div'
+        div = soup.find('div', { 'id': 'toc-list' }
