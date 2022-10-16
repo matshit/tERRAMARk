@@ -10,4 +10,6 @@ class Nature_of_Code_the(BasicNewsRecipe):
     keep_only_tags = [{ 'id': 'container' }]
 
     def parse_index(self):
-        soup = self.index_to_soup(self.url_pre
+        soup = self.index_to_soup(self.url_prefix + '/book/')
+
+ 
