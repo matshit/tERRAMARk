@@ -14,4 +14,5 @@ class Nature_of_Code_the(BasicNewsRecipe):
 
         div = soup.find('div', { 'id': 'toc-list' })
 
-        articles =
+        articles = []
+        
