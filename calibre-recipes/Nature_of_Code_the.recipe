@@ -23,4 +23,4 @@ class Nature_of_Code_the(BasicNewsRecipe):
 
         ans = [(title, articles)]
 
-   
+        return ans

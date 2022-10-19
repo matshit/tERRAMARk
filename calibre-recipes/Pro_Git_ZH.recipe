@@ -1,0 +1,8 @@
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+ 
+class Pro_Git_ZH(BasicNewsRecipe):
+ 
+    title = 'Pro_Git_ZH'
+    description = 'Pro_Git_Chinese'
+    cover_url = 'http://iissnan.com/progit/assets/img/pro-git-cover.jpeg'
