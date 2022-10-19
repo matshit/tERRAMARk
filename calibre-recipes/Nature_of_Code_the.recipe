@@ -18,4 +18,4 @@ class Nature_of_Code_the(BasicNewsRecipe):
         for link in div.findAll('a'):
             title = link.contents[0].strip()
             url = self.url_prefix + link['href']
-            a = {
+            a = { 'title': title, 'ur
