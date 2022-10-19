@@ -21,4 +21,4 @@ class Nature_of_Code_the(BasicNewsRecipe):
             a = { 'title': title, 'url': url }
             articles.append(a)
 
-      
+        ans = [(
