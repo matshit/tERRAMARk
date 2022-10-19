@@ -19,4 +19,6 @@ class Nature_of_Code_the(BasicNewsRecipe):
             title = link.contents[0].strip()
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
-            articles.a
+            articles.append(a)
+
+      
