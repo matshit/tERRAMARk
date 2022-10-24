@@ -3,4 +3,5 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class Programming_JavaScript_Applications(BasicNewsRecipe):
 
     title = 'Programming_JavaScript_Applications'
-    descr
+    description = ''
+  
