@@ -6,4 +6,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
     description = ''
     cover_url = 'http://akamaicovers.oreilly.com/images/0636920024231/lrg.jpg'
 
-    url_prefix = 'http://chimera
+    url_prefix = 'http://chimera.labs.oreilly.com/books/1234
