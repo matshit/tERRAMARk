@@ -8,4 +8,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
 
     url_prefix = 'http://chimera.labs.oreilly.com/books/1234000000262/'
     no_stylesheets = True
-    k
+    keep_only_tags = [{ '
