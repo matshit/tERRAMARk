@@ -10,4 +10,5 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'class': 'chapter' }]
 
-    def get_title(self,
+    def get_title(self, link):
+    
