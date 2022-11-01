@@ -11,4 +11,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
     keep_only_tags = [{ 'class': 'chapter' }]
 
     def get_title(self, link):
-        return link
+        return link.contents[0].st
