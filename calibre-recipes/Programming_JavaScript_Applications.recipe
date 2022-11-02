@@ -14,4 +14,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
-        
+        soup = self.index_to_soup
