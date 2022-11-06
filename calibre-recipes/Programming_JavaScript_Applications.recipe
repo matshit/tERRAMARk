@@ -19,4 +19,5 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
         div = soup.find('div', { 'class': 'toc' })
 
         articles = []
-        for link in div.fin
+        for link in div.findAll('a'):
+         
