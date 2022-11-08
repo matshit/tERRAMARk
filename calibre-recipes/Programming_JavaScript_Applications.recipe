@@ -20,4 +20,5 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
 
         articles = []
         for link in div.findAll('a'):
-            if '#' in link['h
+            if '#' in link['href']:
+       
