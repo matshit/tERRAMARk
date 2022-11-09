@@ -24,4 +24,6 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
                 continue
 
             if not 'ch' in link['href']:
-                con
+                continue
+
+           
