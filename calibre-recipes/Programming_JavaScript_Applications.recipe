@@ -23,4 +23,5 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
             if '#' in link['href']:
                 continue
 
-            if not 'ch' in link['href'
+            if not 'ch' in link['href']:
+                con
