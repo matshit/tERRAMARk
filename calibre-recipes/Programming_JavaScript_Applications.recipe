@@ -27,4 +27,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
                 continue
 
             title = self.get_title(link) 
-            ur
+            url = self.url_pref
