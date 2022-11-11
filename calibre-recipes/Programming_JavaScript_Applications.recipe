@@ -27,4 +27,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
                 continue
 
             title = self.get_title(link) 
-            url = self.url_pref
+            url = self.url_prefix + link['href']
