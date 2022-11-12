@@ -30,4 +30,6 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
             url = self.url_prefix + link['href']
             a = { 'title': title, 'url': url }
 
-            a
+            articles.append(a)
+
+ 
