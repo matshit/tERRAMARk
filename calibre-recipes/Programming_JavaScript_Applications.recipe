@@ -32,4 +32,6 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [(tit
+        ans = [(title, articles)]
+
+   
