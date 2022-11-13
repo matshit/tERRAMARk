@@ -34,4 +34,4 @@ class Programming_JavaScript_Applications(BasicNewsRecipe):
 
         ans = [(title, articles)]
 
-   
+        return 
