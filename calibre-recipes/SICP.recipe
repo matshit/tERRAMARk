@@ -3,4 +3,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class SICP(BasicNewsRecipe):
 
-    
+    title = 'Structure and Int
