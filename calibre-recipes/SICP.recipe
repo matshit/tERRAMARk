@@ -5,4 +5,4 @@ class SICP(BasicNewsRecipe):
 
     title = 'Structure and Interpretation of Computer Programs'
     description = ''
-    cover_url = 'http://mitpre
+    cover_url = 'http://mitpress.mit.edu/sicp/fu
