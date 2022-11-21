@@ -7,4 +7,4 @@ class SICP(BasicNewsRecipe):
     description = ''
     cover_url = 'http://mitpress.mit.edu/sicp/full-text/book/cover.jpg'
 
-    url_pre
+    url_prefix = 'http://mitp
