@@ -8,4 +8,5 @@ class SICP(BasicNewsRecipe):
     cover_url = 'http://mitpress.mit.edu/sicp/full-text/book/cover.jpg'
 
     url_prefix = 'http://mitpress.mit.edu/sicp/full-text/book/'
-    no_stylesheet
+    no_stylesheets = True
+    remove_tag
