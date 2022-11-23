@@ -9,4 +9,4 @@ class SICP(BasicNewsRecipe):
 
     url_prefix = 'http://mitpress.mit.edu/sicp/full-text/book/'
     no_stylesheets = True
-    remove_tag
+    remove_tags = [{ 'class': 'navi
