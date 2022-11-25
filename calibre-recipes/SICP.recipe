@@ -12,4 +12,4 @@ class SICP(BasicNewsRecipe):
     remove_tags = [{ 'class': 'navigation' }]
 
     def get_title(self, link):
-        return link.
+        return link.contents[0].strip()
