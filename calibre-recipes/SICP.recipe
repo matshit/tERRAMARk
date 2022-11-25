@@ -11,4 +11,5 @@ class SICP(BasicNewsRecipe):
     no_stylesheets = True
     remove_tags = [{ 'class': 'navigation' }]
 
-    def get_t
+    def get_title(self, link):
+ 
