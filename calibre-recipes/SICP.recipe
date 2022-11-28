@@ -17,4 +17,5 @@ class SICP(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup('http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html')
 
-        articles
+        articles = []
+        fo
