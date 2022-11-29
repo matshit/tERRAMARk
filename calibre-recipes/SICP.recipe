@@ -19,4 +19,4 @@ class SICP(BasicNewsRecipe):
 
         articles = []
         for link in soup.findAll('a'):
-            if not (link.has_key('name') and link.
+            if not (link.has_key('name') and link.has_key('href')):
