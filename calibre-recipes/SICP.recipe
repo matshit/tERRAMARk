@@ -21,3 +21,5 @@ class SICP(BasicNewsRecipe):
         for link in soup.findAll('a'):
             if not (link.has_key('name') and link.has_key('href')):
                 continue
+
+            patter
