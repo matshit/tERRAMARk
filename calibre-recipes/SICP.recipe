@@ -22,4 +22,5 @@ class SICP(BasicNewsRecipe):
             if not (link.has_key('name') and link.has_key('href')):
                 continue
 
-            pattern = re.compile(r'^.*
+            pattern = re.compile(r'^.*\d\.\d\.\d$')
+      
