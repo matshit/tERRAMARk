@@ -24,4 +24,5 @@ class SICP(BasicNewsRecipe):
 
             pattern = re.compile(r'^.*\d\.\d\.\d$')
             if pattern.match(link['href']):
-        
+                continue
+     
