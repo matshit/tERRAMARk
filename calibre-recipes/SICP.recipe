@@ -26,4 +26,5 @@ class SICP(BasicNewsRecipe):
             if pattern.match(link['href']):
                 continue
             
-            title = self.get_ti
+            title = self.get_title(link) 
+  
