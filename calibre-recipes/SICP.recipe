@@ -28,4 +28,6 @@ class SICP(BasicNewsRecipe):
             
             title = self.get_title(link) 
             url = self.url_prefix + link['href']
-            a = { 'title': title, 'url': url
+            a = { 'title': title, 'url': url }
+
+          
