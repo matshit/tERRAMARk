@@ -33,3 +33,5 @@ class SICP(BasicNewsRecipe):
             articles.append(a)
 
         ans = [('SICP', articles)]
+
+        return ans
