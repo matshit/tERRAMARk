@@ -32,4 +32,4 @@ class SICP(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans = [('SIC
+        ans = [('SICP', articles)]
