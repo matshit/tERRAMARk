@@ -1,3 +1,3 @@
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
-class Test_Driven_We
+class Test_Driven_Web_Development
