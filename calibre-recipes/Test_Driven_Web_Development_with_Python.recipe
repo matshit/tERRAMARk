@@ -4,4 +4,4 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
 
     title = 'Test-Driven Web Development with Python'
     description = ''
-    cover_u
+    cover_url = 'http://akam
