@@ -2,4 +2,4 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
 
-    title = 'Test-Dri
+    title = 'Test-Driven Web Development
