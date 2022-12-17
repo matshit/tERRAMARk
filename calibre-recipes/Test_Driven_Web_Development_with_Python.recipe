@@ -10,4 +10,5 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
     no_stylesheets = True
     keep_only_tags = [{ 'class': 'chapter' }]
 
-    def get_t
+    def get_title(self, link):
+   
