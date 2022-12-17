@@ -8,4 +8,4 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
 
     url_prefix = 'http://chimera.labs.oreilly.com/books/1234000000754/'
     no_stylesheets = True
-    keep_only_t
+    keep_only_tags = [{ 'class': 'c
