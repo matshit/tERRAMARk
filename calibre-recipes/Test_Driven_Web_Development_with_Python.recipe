@@ -13,4 +13,5 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
     def get_title(self, link):
         return link.contents[0].strip()
 
-    def parse_i
+    def parse_index(self):
+        so
