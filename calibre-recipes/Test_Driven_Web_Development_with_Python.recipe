@@ -14,4 +14,5 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
         return link.contents[0].strip()
 
     def parse_index(self):
-        soup = self.index_to_soup(self.url_prefi
+        soup = self.index_to_soup(self.url_prefix + 'index.html')
+
