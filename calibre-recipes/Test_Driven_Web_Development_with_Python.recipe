@@ -16,4 +16,6 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
     def parse_index(self):
         soup = self.index_to_soup(self.url_prefix + 'index.html')
 
-        div = soup.find('div', { 'class': 'toc' 
+        div = soup.find('div', { 'class': 'toc' })
+
+        ar
