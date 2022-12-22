@@ -20,4 +20,5 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
 
         articles = []
         for link in div.findAll('a'):
-            if '#' i
+            if '#' in link['href']:
+  
