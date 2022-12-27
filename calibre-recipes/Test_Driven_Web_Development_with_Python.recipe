@@ -32,4 +32,6 @@ class Test_Driven_Web_Development_with_Python(BasicNewsRecipe):
 
             articles.append(a)
 
-        ans
+        ans = [(title, articles)]
+
+  
