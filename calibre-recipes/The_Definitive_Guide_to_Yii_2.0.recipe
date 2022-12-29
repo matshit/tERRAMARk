@@ -1,3 +1,4 @@
 #!/usr/bin/env  python
 
-from calibre.web.feeds.recipes impor
+from calibre.web.feeds.recipes import BasicNewsRecipe
+from 
