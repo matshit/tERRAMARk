@@ -1,4 +1,5 @@
 #!/usr/bin/env  python
 
 from calibre.web.feeds.recipes import BasicNewsRecipe
-from calibre.ebooks.BeautifulSoup import Tag, Naviga
+from calibre.ebooks.BeautifulSoup import Tag, NavigableString
+from collectio
