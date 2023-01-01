@@ -5,4 +5,4 @@ from calibre.ebooks.BeautifulSoup import Tag, NavigableString
 from collections import OrderedDict
 
 
-class Yii_
+class Yii_Framework_Guide(Bas
