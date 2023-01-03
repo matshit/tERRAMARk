@@ -6,3 +6,5 @@ from collections import OrderedDict
 
 
 class Yii_Framework_Guide(BasicNewsRecipe):
+
+    title = 'The Defin
