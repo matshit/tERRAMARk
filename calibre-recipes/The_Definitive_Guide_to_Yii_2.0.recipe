@@ -8,4 +8,5 @@ from collections import OrderedDict
 class Yii_Framework_Guide(BasicNewsRecipe):
 
     title = 'The Definitive Guide to Yii 2.0'
-    description = 'Yii 2.0 Doc
+    description = 'Yii 2.0 Documentation'
+    
