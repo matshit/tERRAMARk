@@ -10,4 +10,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     title = 'The Definitive Guide to Yii 2.0'
     description = 'Yii 2.0 Documentation'
     cover_url = 'http://static.yiiframework.com/css/img/logo.png'
-    extra_c
+    extra_css      = '''
+   
