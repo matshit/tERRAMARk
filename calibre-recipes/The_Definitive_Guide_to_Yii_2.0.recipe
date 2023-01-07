@@ -12,4 +12,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     cover_url = 'http://static.yiiframework.com/css/img/logo.png'
     extra_css      = '''
         pre {
-          
+            border-color: #e0e5ea;
