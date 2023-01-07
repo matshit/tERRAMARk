@@ -13,4 +13,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     extra_css      = '''
         pre {
             border-color: #e0e5ea;
-            border-style
+            border-style: none none none so
