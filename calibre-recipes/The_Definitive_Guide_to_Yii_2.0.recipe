@@ -14,4 +14,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         pre {
             border-color: #e0e5ea;
             border-style: none none none solid;
-            border-width: medium 
+            border-width: medium medium medium 5px;
+ 
