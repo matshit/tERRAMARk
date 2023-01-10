@@ -18,4 +18,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         }
 
         blackquote {
-            
+            border-left: 5
