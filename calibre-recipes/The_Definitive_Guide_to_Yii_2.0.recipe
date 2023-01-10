@@ -17,4 +17,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
             border-width: medium medium medium 5px;
         }
 
-        bla
+        blackquote {
+            
