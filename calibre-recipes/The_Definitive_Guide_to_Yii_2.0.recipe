@@ -22,4 +22,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         }
 
     '''
-    url_pre
+    url_pre = 'http://www.yiifra
