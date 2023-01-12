@@ -24,4 +24,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     '''
     url_pre = 'http://www.yiiframework.com/doc-2.0/'
     no_stylesheets = True
-    keep_on
+    keep_only_tags = [{ 'role': '
