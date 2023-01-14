@@ -27,4 +27,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     keep_only_tags = [{ 'role': 'main' }]
     simultaneous_downloads = 5
     
-    def parse_index
+    def parse_index(self):
+      
