@@ -28,4 +28,6 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     simultaneous_downloads = 5
     
     def parse_index(self):
-        return self.guide_
+        return self.guide_parse_index()
+
+    def gui
