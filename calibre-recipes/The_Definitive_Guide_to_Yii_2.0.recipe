@@ -30,4 +30,6 @@ class Yii_Framework_Guide(BasicNewsRecipe):
     def parse_index(self):
         return self.guide_parse_index()
 
-    def guide_parse_index(sel
+    def guide_parse_index(self):
+
+        so
