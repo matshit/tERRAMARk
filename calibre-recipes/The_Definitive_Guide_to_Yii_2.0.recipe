@@ -32,4 +32,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
 
     def guide_parse_index(self):
 
-        so
+        soup = self.index_t
