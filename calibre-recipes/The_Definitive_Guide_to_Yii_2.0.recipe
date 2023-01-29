@@ -35,4 +35,6 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         soup = self.index_to_soup(self.url_pre + 'guide-index.html')
         title = 'The Definitive Guide to Yii 2.0'
         
-        div = soup.find('div', { 'role'
+        div = soup.find('div', { 'role': 'main' })
+
+   
