@@ -37,4 +37,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         
         div = soup.find('div', { 'role': 'main' })
 
-        section_title_pattern = '([A-Za-
+        section_title_pattern = '([A-Za-z]*\s*)+'
+        feeds 
