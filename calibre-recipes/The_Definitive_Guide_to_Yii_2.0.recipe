@@ -40,4 +40,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         section_title_pattern = '([A-Za-z]*\s*)+'
         feeds = OrderedDict()
 
-       
+        is_first_section = True
