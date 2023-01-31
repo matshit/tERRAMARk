@@ -41,3 +41,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         feeds = OrderedDict()
 
         is_first_section = True
+        secti
