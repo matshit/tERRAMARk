@@ -43,4 +43,7 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         is_first_section = True
         section_title = ''
 
-        for item in div.findAl
+        for item in div.findAll(['h2','li']):
+
+
+   
