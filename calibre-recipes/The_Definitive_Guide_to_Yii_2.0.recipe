@@ -46,4 +46,6 @@ class Yii_Framework_Guide(BasicNewsRecipe):
         for item in div.findAll(['h2','li']):
 
 
-            html_tag 
+            html_tag = item.name
+
+         
