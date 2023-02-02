@@ -49,4 +49,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
             html_tag = item.name
 
             if html_tag == 'h2':
-               
+                if not is_firs
