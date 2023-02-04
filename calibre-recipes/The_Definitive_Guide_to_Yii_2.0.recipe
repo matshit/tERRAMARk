@@ -52,4 +52,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 if not is_first_section:
                     if articles:
                         if section_title not in feeds:
-       
+                            feeds[sectio
