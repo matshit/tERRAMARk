@@ -51,4 +51,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
             if html_tag == 'h2':
                 if not is_first_section:
                     if articles:
-    
+                        if sect
