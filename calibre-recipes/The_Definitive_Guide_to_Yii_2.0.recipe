@@ -54,4 +54,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                         if section_title not in feeds:
                             feeds[section_title] = []
                         feeds[section_title] += articles
-                e
+                else:
+             
