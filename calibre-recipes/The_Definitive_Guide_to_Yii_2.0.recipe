@@ -55,4 +55,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                             feeds[section_title] = []
                         feeds[section_title] += articles
                 else:
-                    is_first_
+                    is_first_section = False
+   
