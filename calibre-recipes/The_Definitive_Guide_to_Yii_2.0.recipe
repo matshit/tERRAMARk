@@ -56,4 +56,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                         feeds[section_title] += articles
                 else:
                     is_first_section = False
-                section_title_raw = self.tag_t
+                section_title_raw = self.tag_to_string(item)
+    
