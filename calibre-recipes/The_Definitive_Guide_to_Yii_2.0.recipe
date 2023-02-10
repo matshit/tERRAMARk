@@ -57,4 +57,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 else:
                     is_first_section = False
                 section_title_raw = self.tag_to_string(item)
-                section_title = re.search(section_title_pattern, section_tit
+                section_title = re.search(section_title_pattern, section_title_raw).group(0).strip(
