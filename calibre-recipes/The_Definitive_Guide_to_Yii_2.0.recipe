@@ -59,4 +59,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 section_title_raw = self.tag_to_string(item)
                 section_title = re.search(section_title_pattern, section_title_raw).group(0).strip()
                 articles = []
-            els
+            else:
+                l
