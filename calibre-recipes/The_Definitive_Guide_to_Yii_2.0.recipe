@@ -60,4 +60,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 section_title = re.search(section_title_pattern, section_title_raw).group(0).strip()
                 articles = []
             else:
-                link = item.f
+                link = item.find('a')
+       
