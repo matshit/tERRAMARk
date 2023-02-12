@@ -61,4 +61,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 articles = []
             else:
                 link = item.find('a')
-       
+                if link:
+
