@@ -63,4 +63,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 link = item.find('a')
                 if link:
 
-                    page_url = self.url_pre + link
+                    page_url = self.url_pre + link['href']
+       
