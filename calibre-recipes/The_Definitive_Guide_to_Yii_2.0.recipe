@@ -64,4 +64,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 if link:
 
                     page_url = self.url_pre + link['href']
-                    page_title
+                    page_title = self.tag_to_s
