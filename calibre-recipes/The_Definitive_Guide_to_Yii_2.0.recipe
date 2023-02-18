@@ -67,4 +67,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                     page_title = self.tag_to_string(item)
                     if 'TBD' in page_title:
                         continue
-                    articles.append({'title': page_title, '
+                    articles.append({'title': page_title, 'url': page_url,
+        
