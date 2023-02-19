@@ -68,4 +68,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                     if 'TBD' in page_title:
                         continue
                     articles.append({'title': page_title, 'url': page_url,
-        
+                     
