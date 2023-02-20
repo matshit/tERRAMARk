@@ -70,4 +70,5 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                     articles.append({'title': page_title, 'url': page_url,
                         'description':'', 'date':''})
 
-        if articles:
+        if articles:     
+          
