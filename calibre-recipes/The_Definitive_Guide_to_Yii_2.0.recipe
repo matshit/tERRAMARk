@@ -71,4 +71,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                         'description':'', 'date':''})
 
         if articles:     
-          
+            if section_ti
