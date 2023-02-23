@@ -75,4 +75,4 @@ class Yii_Framework_Guide(BasicNewsRecipe):
                 feeds[section_title] = []
             feeds[section_title] += articles
 
-        ans = [(key, val) for key, val i
+        ans = [(key, val) for key, val in feeds.iteritem
