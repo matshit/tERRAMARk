@@ -46,3 +46,17 @@ class Tutorials_about_Development_for_Android(BasicNewsRecipe):
             section_title = self.tag_to_string(header.h2)
             feeds[section_title] = []
             articles = []
+
+            pages = item.find('div', { 'class' : 'tutorialbody' })
+            links = pages.findAll('a')
+            for link in links:
+                page_url = link['href']
+                page_title = self.tag_to_string(link)
+                articles.append({'title': page_title, 'url': page_url,
+                    'description':'', 'date':''})
+
+            feeds[section_title] += articles
+
+        ans = [(key, val) for key, val in feeds.iteritems()]
+        return ans
+
