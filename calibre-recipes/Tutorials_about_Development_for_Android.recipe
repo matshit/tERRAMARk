@@ -28,3 +28,21 @@ class Tutorials_about_Development_for_Android(BasicNewsRecipe):
 
     def parse_index(self):
         return self.guide_parse_index()
+
+    def guide_parse_index(self):
+
+        soup = self.index_to_soup('http://www.vogella.com/tutorials/android.html')
+
+        div = soup.find('div', { 'class': 'tutorialdiv' })
+
+        feeds = OrderedDict()
+
+        container = div.findAll('div', { 'class' : 'tutorialcontainer'})
+
+        for item in container:
+
+            header = item.find('div', { 'class' : 'tutorialheader' })
+
+            section_title = self.tag_to_string(header.h2)
+            feeds[section_title] = []
+            articles = []
