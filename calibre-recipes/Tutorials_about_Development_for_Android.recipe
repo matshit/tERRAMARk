@@ -13,3 +13,18 @@ class Tutorials_about_Development_for_Android(BasicNewsRecipe):
     extra_css      = '''
         pre {
             border-color: #e0e5ea;
+            border-style: none none none solid;
+            border-width: medium medium medium 5px;
+        }
+
+        blackquote {
+            border-left: 5px solid #eee;
+        }
+
+    '''
+    no_stylesheets = True
+    keep_only_tags = [{ 'class': 'article' }]
+    simultaneous_downloads = 5
+
+    def parse_index(self):
+        return self.guide_parse_index()
